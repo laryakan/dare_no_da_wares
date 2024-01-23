@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <replace sel="/characters/character[@id='xenon_generic']/skills/skill[@type='piloting']/@min">9</replace>
+  <replace sel="/characters/character[@id='xenon_generic']/skills/skill[@type='engineering']/@min">9</replace>
+  <replace sel="/characters/character[@id='xenon_generic']/skills/skill[@type='boarding']/@min">9</replace>
+  <replace sel="/characters/character[@id='khaak_generic']/skills/skill[@type='piloting']/@min">9</replace>
+  <replace sel="/characters/character[@id='khaak_generic']/skills/skill[@type='engineering']/@min">9</replace>
+  <replace sel="/characters/character[@id='khaak_generic']/skills/skill[@type='boarding']/@min">9</replace>
+</diff>

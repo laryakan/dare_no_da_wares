@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+	<!--Jobs-->
+  <replace sel="/parameters/mining/damagefactors/@turret">1</replace>
+  <replace sel="/parameters/mining/speedfactors/@ship">1</replace>
+  <replace sel="/parameters/mining/speedfactors/@unit">1</replace>
+  <replace sel="/parameters/loadout[@variation='0.3']/@variation">0.2</replace>
+  <replace sel="/parameters/loadout[@variation='0.2']/@software">1</replace>
+  <replace sel="/parameters/loadout[@variation='0.2']/units/@min">0.75</replace>
+  <replace sel="/parameters/loadout[@variation='0.2']/units/defence/@max">0.5</replace>
+  <replace sel="/parameters/loadout[@variation='0.2']/group/@threshold">0</replace>  
+	<!--Wares-->
+  <replace sel="/parameters/economy/prices/build/@min">0.3</replace>
+  <replace sel="/parameters/economy/modulelimits/@production">20</replace>
+  <replace sel="/parameters/workforce/growth/@rate">40</replace>
+  <replace sel="/parameters/productioncheck[@reportintermediates='false']/threshold/@resource">0.10</replace>
+  <replace sel="/parameters/productioncheck[@reportintermediates='false']/threshold/@product">0.10</replace>
+</diff>
