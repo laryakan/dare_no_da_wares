@@ -1,11 +1,53 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
-  <replace sel="/god/stations/defaults/location/@coreboundaryzoneheight">20000</replace>
-  <replace sel="/god/stations/defaults/location/corerange/@max">1.75</replace>
+  <replace sel="/god/stations/defaults/location/@coreboundaryzoneheight">45000</replace>
+  <replace sel="/god/stations/defaults/location/corerange/@max">1.2</replace>
   <replace sel="/god/stations/defaults/modules/@production">20</replace>
   <replace sel="/god/stations/defaults/quota/@zone">6</replace>
   <replace sel="/god/stations/defaults/quota/@sector">40</replace>
+  <!--Stations-->
   <replace sel="/god/stations/station[@id='tradestation_argon_01'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='tradestation_antigone'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>  
+  <replace sel="/god/stations/station[@id='tradestation_hatikvah_01'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='freeport_hatikvah_01'][@type='piratebase']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='freeport_hatikvah_02'][@type='piratebase']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='freeport_hatikvah_03'][@type='piratebase']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='tradestation_paranid'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='tradestation_holyorder'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='ringstation_01'][@type='tradingstation']/station[@ref='tradestation_tel_ring']/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='ringstation_02'][@type='tradingstation']/station[@ref='tradestation_tel_ring']/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='ringstation_03'][@type='tradingstation']/station[@ref='tradestation_tel_ring']/loadout/level[@exact='0.75']/@exact">1.0</replace>  
+  <replace sel="/god/stations/station[@id='tel_processing'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>  
+  <add sel="/god/stations/station[@id='tel_defence_cluster_01_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_01_sector002'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_01_sector003'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add> 
+  <add sel="/god/stations/station[@id='tel_defence_cluster_02_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_03_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_05_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
   <add sel="/god/stations/station[@id='arg_defence_cluster_06_sector001'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
@@ -26,90 +68,16 @@
       <level exact="1.0"/>
     </loadout>
   </add>
-  <add sel="/god/stations/station[@id='arg_defence_cluster_29_sector002'][@type='factory']/station">
+  <add sel="/god/stations/station[@id='tel_defence_cluster_09_sector001'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
     </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='arg_defence_cluster_30_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='arg_defence_cluster_46_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <replace sel="/god/stations/station[@id='tradestation_antigone'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
-  <add sel="/god/stations/station[@id='ant_defence_cluster_13_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='ant_defence_cluster_40_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='ant_defence_cluster_41_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='ant_defence_cluster_27_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <replace sel="/god/stations/station[@id='tradestation_hatikvah_01'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
-  <replace sel="/god/stations/station[@id='freeport_hatikvah_01'][@type='piratebase']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
-  <replace sel="/god/stations/station[@id='freeport_hatikvah_02'][@type='piratebase']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
-  <replace sel="/god/stations/station[@id='freeport_hatikvah_03'][@type='piratebase']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
-<!-- NOTE: Removed as Hatikvah is being downgraded  
-  <add sel="/god/stations/station[@id='hat_defence_cluster_29_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
--->  
-  <replace sel="/god/stations/station[@id='tradestation_paranid'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  </add>  
   <add sel="/god/stations/station[@id='par_defence_cluster_10_sector001'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
     </loadout>
   </add>
-  <add sel="/god/stations/station[@id='par_defence_cluster_18_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='par_defence_cluster_47_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='par_defence_cluster_22_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='par_defence_cluster_37_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='par_defence_cluster_38_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='par_defence_cluster_23_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <replace sel="/god/stations/station[@id='tradestation_holyorder'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
   <add sel="/god/stations/station[@id='hol_defence_cluster_11_sector001'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
@@ -119,50 +87,12 @@
     <loadout>
       <level exact="1.0"/>
     </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='hol_defence_cluster_24_sector001'][@type='factory']/station">
+  </add>  
+  <add sel="/god/stations/station[@id='ant_defence_cluster_13_sector001'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
     </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='hol_defence_cluster_35_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='hol_defence_cluster_36_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <replace sel="/god/stations/station[@id='ringstation_01'][@type='tradingstation']/station[@ref='tradestation_tel_ring']/loadout/level[@exact='0.75']/@exact">1.0</replace>
-  <replace sel="/god/stations/station[@id='ringstation_02'][@type='tradingstation']/station[@ref='tradestation_tel_ring']/loadout/level[@exact='0.75']/@exact">1.0</replace>
-  <replace sel="/god/stations/station[@id='ringstation_03'][@type='tradingstation']/station[@ref='tradestation_tel_ring']/loadout/level[@exact='0.75']/@exact">1.0</replace>
-  <add sel="/god/stations/station[@id='tel_defence_cluster_01_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='tel_defence_cluster_01_sector002'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='tel_defence_cluster_01_sector003'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='tel_defence_cluster_05_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='tel_defence_cluster_09_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
+  </add>  
   <add sel="/god/stations/station[@id='tel_defence_cluster_15_sector001'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
@@ -172,18 +102,15 @@
     <loadout>
       <level exact="1.0"/>
     </loadout>
+  </add> 
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_16_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_16_sector001'][@type='defence']/quotas/quota/@zone">2</replace>  
+  <add sel="/god/stations/station[@id='par_defence_cluster_18_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
   </add>
   <add sel="/god/stations/station[@id='tel_defence_cluster_19_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='tel_defence_cluster_42_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='tel_defence_cluster_43_sector001'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
     </loadout>
@@ -197,35 +124,99 @@
     <loadout>
       <level exact="1.0"/>
     </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='tel_defence_cluster_02_sector001'][@type='factory']/station">
+  </add>  
+  <add sel="/god/stations/station[@id='par_defence_cluster_22_sector001'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
     </loadout>
   </add>
-  <add sel="/god/stations/station[@id='tel_defence_cluster_03_sector001'][@type='factory']/station">
+  <add sel="/god/stations/station[@id='hol_defence_cluster_24_sector001'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
     </loadout>
   </add>
-  <add sel="/god/stations/station[@id='tel_defence_cluster_39_sector001'][@type='factory']/station">
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_25_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_25_sector001'][@type='defence']/quotas/quota/@zone">2</replace>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_25_sector001'][@type='defence']/location[@macro='zone002_cluster_25_sector001_macro']/@macro">zone003_cluster_25_sector001_macro</replace>  
+  <add sel="/god/stations/station[@id='ant_defence_cluster_27_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='hat_defence_cluster_29_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='arg_defence_cluster_29_sector002'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
     </loadout>
   </add>
+  <add sel="/god/stations/station[@id='arg_defence_cluster_30_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_32_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_32_sector001'][@type='defence']/quotas/quota/@zone">2</replace>  
   <add sel="/god/stations/station[@id='tel_defence_cluster_34_sector001'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
     </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='hol_defence_cluster_35_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
   </add>
-  <replace sel="/god/stations/station[@id='tel_processing'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
-  <replace sel="/god/stations/station[@id='xen_defence_cluster_16_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
-  <replace sel="/god/stations/station[@id='xen_defence_cluster_16_sector001'][@type='defence']/quotas/quota/@zone">2</replace>
-  <replace sel="/god/stations/station[@id='xen_defence_cluster_25_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
-  <replace sel="/god/stations/station[@id='xen_defence_cluster_25_sector001'][@type='defence']/quotas/quota/@zone">2</replace>
-  <replace sel="/god/stations/station[@id='xen_defence_cluster_25_sector001'][@type='defence']/location[@macro='zone002_cluster_25_sector001_macro']/@macro">zone003_cluster_25_sector001_macro</replace>
-  <replace sel="/god/stations/station[@id='xen_defence_cluster_32_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
-  <replace sel="/god/stations/station[@id='xen_defence_cluster_32_sector001'][@type='defence']/quotas/quota/@zone">2</replace>
+  <add sel="/god/stations/station[@id='hol_defence_cluster_36_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='par_defence_cluster_37_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='par_defence_cluster_38_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='tel_defence_cluster_39_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='ant_defence_cluster_40_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='ant_defence_cluster_41_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_42_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_43_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='par_defence_cluster_47_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <replace sel="/god/stations/station[@id='tradestation_split_01'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='tradestation_freesplit_01'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>  
   <replace sel="/god/stations/station[@id='spl_defence_cluster_400_sector001'][@type='factory']/location[@macro='cluster_400_sector001_macro']/@class">zone</replace>
   <replace sel="/god/stations/station[@id='spl_defence_cluster_400_sector001'][@type='factory']/location[@macro='cluster_400_sector001_macro']/@macro">zone001_cluster_400_sector001_macro</replace>
   <remove sel="/god/stations/station[@id='spl_defence_cluster_400_sector001'][@type='factory']/position"/>
@@ -268,7 +259,6 @@
   <add sel="/god/stations/station[@id='spl_defence_cluster_405_sector001'][@type='factory']/station/loadout">
     <level exact="1.0"/>
   </add>
-  <replace sel="/god/stations/station[@id='tradestation_split_01'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
   <remove sel="/god/stations/station[@id='spl_defence_cluster_406_sector001'][@type='factory']/station/loadout/@useplanloadout"/>
   <add sel="/god/stations/station[@id='spl_defence_cluster_406_sector001'][@type='factory']/station/loadout">
     <level exact="1.0"/>
@@ -277,15 +267,6 @@
   <add sel="/god/stations/station[@id='spl_defence_cluster_406_sector001_2'][@type='factory']/station/loadout">
     <level exact="1.0"/>
   </add>
-  <remove sel="/god/stations/station[@id='spl_defence_cluster_418_sector001'][@type='factory']/station/loadout/@useplanloadout"/>
-  <add sel="/god/stations/station[@id='spl_defence_cluster_418_sector001'][@type='factory']/station/loadout">
-    <level exact="1.0"/>
-  </add>
-  <remove sel="/god/stations/station[@id='spl_defence_cluster_418_sector001_2'][@type='factory']/station/loadout/@useplanloadout"/>
-  <add sel="/god/stations/station[@id='spl_defence_cluster_418_sector001_2'][@type='factory']/station/loadout">
-    <level exact="1.0"/>
-  </add>
-  <replace sel="/god/stations/station[@id='tradestation_freesplit_01'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
   <add sel="/god/stations/station[@id='frf_defence_cluster_407_sector001'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
@@ -315,23 +296,8 @@
     <loadout>
       <level exact="1.0"/>
     </loadout>
-  </add>
+  </add>  
   <add sel="/god/stations/station[@id='frf_defence_cluster_412_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='frf_defence_cluster_421_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='tel_defence_cluster_419_sector001'][@type='factory']/station">
-    <loadout>
-      <level exact="1.0"/>
-    </loadout>
-  </add>
-  <add sel="/god/stations/station[@id='tel_defence_cluster_420_sector001'][@type='factory']/station">
     <loadout>
       <level exact="1.0"/>
     </loadout>
@@ -341,7 +307,7 @@
       <level exact="1.0"/>
       <variation exact="0"/>
     </loadout>
-  </add>
+  </add> 
   <replace sel="/god/stations/station[@id='xen_defence_cluster_414_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
   <replace sel="/god/stations/station[@id='xen_defence_cluster_414_sector001'][@type='defence']/quotas/quota/@zone">2</replace>
   <replace sel="/god/stations/station[@id='xen_defence_cluster_414_sector001'][@type='defence']/location[@macro='zone001_cluster_414_sector001_macro']/@macro">zone005_cluster_414_sector001_macro</replace>
@@ -367,7 +333,30 @@
       <level exact="1.0"/>
       <variation exact="0"/>
     </loadout>
+  </add>  
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_418_sector001'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_418_sector001'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
   </add>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_418_sector001_2'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_418_sector001_2'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_419_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_420_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='frf_defence_cluster_421_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
   <add sel="/god/stations/station[@id='xen_defence_cluster_424_sector002'][@type='defence']/station">
     <loadout>
       <level exact="1.0"/>
@@ -396,183 +385,137 @@
   <replace sel="/god/stations/station[@id='boron_equipment_609_001'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
   <!--Argon + SCA-->
   <replace sel="/god/products/product[@id='arg_advancedcomposites'][@type='factory']/quotas/quota/@galaxy">6</replace>
-  <replace sel="/god/products/product[@id='arg_advancedcomposites'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_advancedcomposites'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_advancedcomposites'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_advancedcomposites'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_advancedcomposites'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_advancedcomposites'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.6" max="0.95"/>
   </replace>
   <replace sel="/god/products/product[@id='arg_advancedelectronics'][@type='factory']/quotas/quota/@galaxy">16</replace>
   <add sel="/god/products/product[@id='arg_advancedelectronics'][@type='factory']/quotas/quota" type="@sector">12</add>
-  <replace sel="/god/products/product[@id='arg_advancedelectronics'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_advancedelectronics'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_advancedelectronics'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_advancedelectronics'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_advancedelectronics'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_advancedelectronics'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.75"/>
   </replace>
   <add sel="/god/products/product[@id='arg_advancedelectronics'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_antimattercells'][@type='factory']/quotas/quota/@galaxy">4</replace>
-  <replace sel="/god/products/product[@id='arg_antimattercells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_antimattercells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_antimattercells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
+  <add sel="/god/products/product[@id='arg_antimattercells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
   <add sel="/god/products/product[@id='arg_antimattercells'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_antimatterconverters'][@type='factory']/quotas/quota/@galaxy">8</replace>
-  <replace sel="/god/products/product[@id='arg_antimatterconverters'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_antimatterconverters'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_antimatterconverters'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_antimatterconverters'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_antimatterconverters'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_antimatterconverters'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.6" max="0.95"/>
   </replace>
   <add sel="/god/products/product[@id='arg_antimatterconverters'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_claytronics'][@type='factory']/quotas/quota/@galaxy">16</replace>
   <add sel="/god/products/product[@id='arg_claytronics'][@type='factory']/quotas/quota" type="@sector">8</add>
-  <replace sel="/god/products/product[@id='arg_claytronics'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_claytronics'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_claytronics'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_claytronics'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_claytronics'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_claytronics'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.75"/>
   </replace>
   <add sel="/god/products/product[@id='arg_claytronics'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_dronecomponents'][@type='factory']/quotas/quota/@galaxy">12</replace>
-  <replace sel="/god/products/product[@id='arg_dronecomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_dronecomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_dronecomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_dronecomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_dronecomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_dronecomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.6" max="0.95"/>
   </replace>
   <add sel="/god/products/product[@id='arg_dronecomponents'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_energycells'][@type='factory']/quotas/quota/@galaxy">40</replace>
   <replace sel="/god/products/product[@id='arg_energycells'][@type='factory']/quotas/quota/@sector">20</replace>
-  <replace sel="/god/products/product[@id='arg_energycells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_energycells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_energycells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <remove sel="/god/products/product[@id='arg_energycells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy"/>
-  <add sel="/god/products/product[@id='arg_energycells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']">
+  <add sel="/god/products/product[@id='arg_energycells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <remove sel="/god/products/product[@id='arg_energycells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy"/>
+  <add sel="/god/products/product[@id='arg_energycells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']">
     <security min="0.6" max="0.95"/>
   </add>
   <add sel="/god/products/product[@id='arg_energycells'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_engineparts'][@type='factory']/quotas/quota/@galaxy">10</replace>
-  <replace sel="/god/products/product[@id='arg_engineparts'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_engineparts'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_engineparts'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_engineparts'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_engineparts'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_engineparts'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.75"/>
   </replace>
   <add sel="/god/products/product[@id='arg_engineparts'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_fieldcoils'][@type='factory']/quotas/quota/@galaxy">4</replace>
-  <replace sel="/god/products/product[@id='arg_fieldcoils'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_fieldcoils'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_fieldcoils'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_fieldcoils'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_fieldcoils'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_fieldcoils'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.6" max="0.95"/>
   </replace>
   <add sel="/god/products/product[@id='arg_fieldcoils'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_foodrations'][@type='factory']/quotas/quota/@galaxy">25</replace>
   <add sel="/god/products/product[@id='arg_foodrations'][@type='factory']/quotas/quota" type="@sector">20</add>
-  <replace sel="/god/products/product[@id='arg_foodrations'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_foodrations'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_foodrations'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_foodrations'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_foodrations'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_foodrations'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.6" max="0.95"/>
   </replace>
   <add sel="/god/products/product[@id='arg_foodrations'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_graphene'][@type='factory']/quotas/quota/@galaxy">28</replace>
-  <replace sel="/god/products/product[@id='arg_graphene'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_graphene'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_graphene'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
+  <add sel="/god/products/product[@id='arg_graphene'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
   <add sel="/god/products/product[@id='arg_graphene'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_hullparts'][@type='factory']/quotas/quota/@galaxy">70</replace>
   <add sel="/god/products/product[@id='arg_hullparts'][@type='factory']/quotas/quota" type="@sector">36</add>
-  <replace sel="/god/products/product[@id='arg_hullparts'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_hullparts'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_hullparts'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_hullparts'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_hullparts'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_hullparts'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.75"/>
   </replace>
   <add sel="/god/products/product[@id='arg_hullparts'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_meat'][@type='factory']/quotas/quota/@galaxy">8</replace>
-  <replace sel="/god/products/product[@id='arg_meat'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_meat'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_meat'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <remove sel="/god/products/product[@id='arg_meat'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy"/>
+  <add sel="/god/products/product[@id='arg_meat'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <remove sel="/god/products/product[@id='arg_meat'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy"/>
   <add sel="/god/products/product[@id='arg_meat'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_medicalsupplies'][@type='factory']/quotas/quota/@galaxy">40</replace>
   <add sel="/god/products/product[@id='arg_medicalsupplies'][@type='factory']/quotas/quota" type="@sector">24</add>
-  <replace sel="/god/products/product[@id='arg_medicalsupplies'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_medicalsupplies'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_medicalsupplies'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <remove sel="/god/products/product[@id='arg_medicalsupplies'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy"/>
+  <add sel="/god/products/product[@id='arg_medicalsupplies'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <remove sel="/god/products/product[@id='arg_medicalsupplies'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy"/>
   <add sel="/god/products/product[@id='arg_medicalsupplies'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_microchips'][@type='factory']/quotas/quota/@galaxy">42</replace>
   <add sel="/god/products/product[@id='arg_microchips'][@type='factory']/quotas/quota" type="@sector">24</add>
-  <replace sel="/god/products/product[@id='arg_microchips'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_microchips'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_microchips'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_microchips'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_microchips'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_microchips'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.6" max="0.95"/>
   </replace>
   <add sel="/god/products/product[@id='arg_microchips'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_missilecomponents'][@type='factory']/quotas/quota/@galaxy">16</replace>
   <add sel="/god/products/product[@id='arg_missilecomponents'][@type='factory']/quotas/quota" type="@sector">8</add>
-  <replace sel="/god/products/product[@id='arg_missilecomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_missilecomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_missilecomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_missilecomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_missilecomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_missilecomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.6" max="0.95"/>
   </replace>
   <add sel="/god/products/product[@id='arg_missilecomponents'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_plasmaconductors'][@type='factory']/quotas/quota/@galaxy">18</replace>
-  <replace sel="/god/products/product[@id='arg_plasmaconductors'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_plasmaconductors'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_plasmaconductors'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_plasmaconductors'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_plasmaconductors'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_plasmaconductors'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.6" max="0.95"/>
   </replace>
   <add sel="/god/products/product[@id='arg_plasmaconductors'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_quantumtubes'][@type='factory']/quotas/quota/@galaxy">24</replace>
-  <replace sel="/god/products/product[@id='arg_quantumtubes'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_quantumtubes'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_quantumtubes'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_quantumtubes'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_quantumtubes'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_quantumtubes'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.6" max="0.95"/>
   </replace>
   <add sel="/god/products/product[@id='arg_quantumtubes'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_refinedmetals'][@type='factory']/quotas/quota/@galaxy">46</replace>
   <remove sel="/god/products/product[@id='arg_refinedmetals'][@type='factory']/quotas/quota/@sector"/>
-  <replace sel="/god/products/product[@id='arg_refinedmetals'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_refinedmetals'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_refinedmetals'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <remove sel="/god/products/product[@id='arg_refinedmetals'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy"/>
+  <add sel="/god/products/product[@id='arg_refinedmetals'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <remove sel="/god/products/product[@id='arg_refinedmetals'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy"/>
   <add sel="/god/products/product[@id='arg_refinedmetals'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_scanningarrays'][@type='factory']/quotas/quota/@galaxy">9</replace>
-  <replace sel="/god/products/product[@id='arg_scanningarrays'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_scanningarrays'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_scanningarrays'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_scanningarrays'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_scanningarrays'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_scanningarrays'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.6" max="0.95"/>
   </replace>
   <add sel="/god/products/product[@id='arg_scanningarrays'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_shieldcomponents'][@type='factory']/quotas/quota/@galaxy">16</replace>
   <add sel="/god/products/product[@id='arg_shieldcomponents'][@type='factory']/quotas/quota" type="@sector">10</add>
-  <replace sel="/god/products/product[@id='arg_shieldcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_shieldcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_shieldcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_shieldcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_shieldcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_shieldcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.75"/>
   </replace>
   <add sel="/god/products/product[@id='arg_shieldcomponents'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_siliconwafers'][@type='factory']/quotas/quota/@galaxy">28</replace>
   <remove sel="/god/products/product[@id='arg_siliconwafers'][@type='factory']/quotas/quota/@sector"/>
-  <replace sel="/god/products/product[@id='arg_siliconwafers'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_siliconwafers'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_siliconwafers'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <remove sel="/god/products/product[@id='arg_siliconwafers'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy"/>
+  <add sel="/god/products/product[@id='arg_siliconwafers'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <remove sel="/god/products/product[@id='arg_siliconwafers'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy"/>
   <add sel="/god/products/product[@id='arg_siliconwafers'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_smartchips'][@type='factory']/quotas/quota/@galaxy">20</replace>
-  <replace sel="/god/products/product[@id='arg_smartchips'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_smartchips'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_smartchips'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_smartchips'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_smartchips'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_smartchips'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.75"/>
   </replace>
   <add sel="/god/products/product[@id='arg_smartchips'][@type='factory']/module/select" type="@faction">argon</add>
@@ -588,44 +531,32 @@
   <replace sel="/god/products/product[@id='pir_spacefuel'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[ownerless]']/@solitary">false</replace>
   <add sel="/god/products/product[@id='pir_spacefuel'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[ownerless]']" type="@newzonechance">1.0</add>
   <replace sel="/god/products/product[@id='arg_spices'][@type='factory']/quotas/quota/@galaxy">12</replace>
-  <replace sel="/god/products/product[@id='arg_spices'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_spices'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_spices'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <remove sel="/god/products/product[@id='arg_spices'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy"/>
+  <add sel="/god/products/product[@id='arg_spices'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <remove sel="/god/products/product[@id='arg_spices'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy"/>
   <add sel="/god/products/product[@id='arg_spices'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_superfluidcoolant'][@type='factory']/quotas/quota/@galaxy">10</replace>
-  <replace sel="/god/products/product[@id='arg_superfluidcoolant'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_superfluidcoolant'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_superfluidcoolant'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
+  <add sel="/god/products/product[@id='arg_superfluidcoolant'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
   <add sel="/god/products/product[@id='arg_superfluidcoolant'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_turretcomponents'][@type='factory']/quotas/quota/@galaxy">20</replace>
   <add sel="/god/products/product[@id='arg_turretcomponents'][@type='factory']/quotas/quota" type="@sector">10</add>
-  <replace sel="/god/products/product[@id='arg_turretcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_turretcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_turretcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_turretcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_turretcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_turretcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.75"/>
   </replace>
   <add sel="/god/products/product[@id='arg_turretcomponents'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_water'][@type='factory']/quotas/quota/@galaxy">8</replace>
-  <replace sel="/god/products/product[@id='arg_water'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_water'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_water'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
+  <add sel="/god/products/product[@id='arg_water'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
   <add sel="/god/products/product[@id='arg_water'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_weaponcomponents'][@type='factory']/quotas/quota/@galaxy">16</replace>
   <add sel="/god/products/product[@id='arg_weaponcomponents'][@type='factory']/quotas/quota" type="@sector">8</add>
-  <replace sel="/god/products/product[@id='arg_weaponcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_weaponcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_weaponcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <replace sel="/god/products/product[@id='arg_weaponcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy">
+  <add sel="/god/products/product[@id='arg_weaponcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <replace sel="/god/products/product[@id='arg_weaponcomponents'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy">
     <security min="0.75"/>
   </replace>
   <add sel="/god/products/product[@id='arg_weaponcomponents'][@type='factory']/module/select" type="@faction">argon</add>
   <replace sel="/god/products/product[@id='arg_wheat'][@type='factory']/quotas/quota/@galaxy">9</replace>
-  <replace sel="/god/products/product[@id='arg_wheat'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/@faction">[argon]</replace>
-  <replace sel="/god/products/product[@id='arg_wheat'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/@comparison">exact</replace>
-  <add sel="/god/products/product[@id='arg_wheat'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']" type="@matchextension">false</add>
-  <remove sel="/god/products/product[@id='arg_wheat'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon]']/economy"/>
+  <add sel="/god/products/product[@id='arg_wheat'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']" type="@matchextension">false</add>
+  <remove sel="/god/products/product[@id='arg_wheat'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='[argon, hatikvah]']/economy"/>
   <add sel="/god/products/product[@id='arg_wheat'][@type='factory']/module/select" type="@faction">argon</add>
   <!--Antigone-->
   <replace sel="/god/products/product[@id='ant_advancedcomposites'][@type='factory']/quotas/quota/@galaxy">6</replace>
@@ -1956,23 +1887,6 @@
   </replace>
   <add sel="/god/products/product[@id='frf_weaponcomponents'][@type='factory']/module/select" type="@faction">freesplit</add>
   <!--Misc. Non-Split via Split DLC-->
-  <remove sel="/god/products/product[@id='arg_dlc_split_energycells'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='arg_dlc_split_foodrations'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='arg_dlc_split_meat'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='arg_dlc_split_medicalsupplies'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='arg_dlc_split_spacefuel'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='arg_dlc_split_spices'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='arg_dlc_split_water'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='arg_dlc_split_wheat'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='par_dlc_split_antimatterconverters'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='par_dlc_split_energycells'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='par_dlc_split_engineparts'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='par_dlc_split_hullparts'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='par_dlc_split_shieldcomponents'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='par_dlc_split_turretcomponents'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='par_dlc_split_weaponcomponents'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='tel_dlc_split_advancedelectronics'][@type='factory']"/>
-  <remove sel="/god/products/product[@id='tel_dlc_split_weaponcomponents'][@type='factory']"/>
   <replace sel="/god/products/product[@id='xen_dlc_split_energycells'][@type='factory']/quotas/quota/@galaxy">30</replace>
   <replace sel="/god/products/product[@id='xen_dlc_split_energycells'][@type='factory']/quotas/quota/@sector">6</replace>
   <replace sel="/god/products/product[@id='xen_dlc_split_energycells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='xenon']/@comparison">exact</replace>
@@ -2307,72 +2221,4 @@
   <replace sel="/god/products/product[@id='bor_plankton'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='boron']/@comparison">exact</replace>
   <add sel="/god/products/product[@id='bor_plankton'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='boron']" type="@matchextension">false</add>
   <remove sel="/god/products/product[@id='bor_plankton'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='boron']/economy"/>
-  <!-- NOTE: Removed as Hatikvah is being downgraded
-  <add sel="/god/products">
-    <product id="hat_spices_da" ware="spices" owner="hatikvah" type="factory">
-      <quotas>
-        <quota galaxy="2"/>
-      </quotas>
-      <location class="sector" macro="cluster_40_sector001_macro" faction="[hatikvah, argon]" matchextension="false"/>	  
-      <module>
-        <select ware="spices" race="argon" faction="hatikvah"/>
-      </module>
-    </product>
-  </add>
-  <add sel="/god/products">
-    <product id="hat_meat_da" ware="meat" owner="hatikvah" type="factory">
-      <quotas>
-        <quota galaxy="2"/>
-      </quotas>
-      <location class="sector" macro="cluster_40_sector002_macro" faction="[hatikvah, argon]" matchextension="false"/>	
-      <module>
-        <select ware="meat" race="argon" faction="hatikvah"/>
-      </module>
-    </product>
-  </add>
-  <add sel="/god/products">
-    <product id="hat_wheat_da" ware="wheat" owner="hatikvah" type="factory">
-      <quotas>
-        <quota galaxy="2"/>
-      </quotas>
-      <location class="sector" macro="cluster_40_sector001_macro" faction="[hatikvah, argon]" matchextension="false"/>	
-      <module>
-        <select ware="wheat" race="argon" faction="hatikvah"/>
-      </module>
-    </product>
-  </add>
-  <add sel="/god/products">
-    <product id="hat_foodrations_da" ware="foodrations" owner="hatikvah" type="factory">
-      <quotas>
-        <quota galaxy="2"/>
-      </quotas>
-      <location class="sector" macro="cluster_40_sector002_macro" faction="[hatikvah, argon]" matchextension="false"/>	
-      <module>
-        <select ware="foodrations" race="argon" faction="hatikvah"/>
-      </module>
-    </product>
-  </add>
-  <add sel="/god/products">
-    <product id="hat_medicalsupplies_da" ware="medicalsupplies" owner="hatikvah" type="factory">
-      <quotas>
-        <quota galaxy="3" />
-      </quotas>
-      <location class="sector" macro="cluster_40_sector001_macro" faction="[hatikvah, argon]" matchextension="false"/>	
-      <module>
-        <select ware="medicalsupplies" race="argon" faction="hatikvah"/>
-      </module>
-    </product>
-  </add>
-  <add sel="/god/products">
-    <product id="hat_spacefuel_da" ware="spacefuel" owner="hatikvah" type="factory">
-      <quotas>
-        <quota galaxy="2"/>
-      </quotas>
-      <location class="sector" macro="cluster_40_sector002_macro" faction="[hatikvah, argon]" matchextension="false"/>	
-      <module>
-        <select ware="spacefuel" race="argon" faction="hatikvah"/>
-      </module>
-    </product>
-  </add>
-  -->
 </diff>

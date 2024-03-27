@@ -1510,10 +1510,7 @@
   <replace sel="/wares/ware[@id='ship_arg_xs_police_01_a']/production[@method='closedloop']/@time">2</replace>
   <replace sel="/wares/ware[@id='ship_arg_xs_police_01_a']/production[@method='closedloop']/primary/ware[@ware='hullparts']/@amount">0</replace>
   <replace sel="/wares/ware[@id='ship_gen_s_fightingdrone_01_a']/production[@method='default']/@time">2</replace>
-  <replace sel="/wares/ware[@id='ship_gen_s_fightingdrone_01_a']/production[@method='xenon']/@time">2</replace>
   <replace sel="/wares/ware[@id='ship_gen_s_fightingdrone_01_a']/production[@method='terran']/@time">2</replace>
-  <replace sel="/wares/ware[@id='ship_gen_s_fightingdrone_01_a']/production[@method='terran']/primary/ware[@ware='metallicmicrolattice']/@amount">25</replace>
-  <replace sel="/wares/ware[@id='ship_gen_s_fightingdrone_01_a']/production[@method='closedloop']/@time">2</replace>
   <replace sel="/wares/ware[@id='ship_gen_s_lasertower_01_a']/production[@method='default']/@time">2</replace>
   <replace sel="/wares/ware[@id='ship_gen_s_lasertower_01_a']/production[@method='default']/primary/ware[@ware='smartchips']/@amount">10</replace>
   <replace sel="/wares/ware[@id='ship_gen_s_lasertower_01_a']/production[@method='xenon']/@time">2</replace>
