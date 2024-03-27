@@ -1,18 +1,33 @@
-<?xml version='1.0' encoding='utf-8'?>
-<diff>
-	<!--Jobs-->
-  <replace sel="/parameters/mining/damagefactors/@turret">1</replace>
-  <replace sel="/parameters/mining/speedfactors/@ship">1</replace>
-  <replace sel="/parameters/mining/speedfactors/@unit">1</replace>
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <replace sel="/parameters/economy/modulelimits/@production">20</replace>
+  <replace sel="/parameters/economy/prices/build/@min">0.3</replace>
+  <replace sel="/parameters/economy/prices/build[@shipsalefactor='0.3']/@shipsalefactor">0.35</replace>    
+  <replace sel="/parameters/economy/prices/builder/@fee">250000</replace>
   <replace sel="/parameters/loadout[@variation='0.3']/@variation">0.2</replace>
   <replace sel="/parameters/loadout[@variation='0.2']/@software">1</replace>
   <replace sel="/parameters/loadout[@variation='0.2']/units/@min">0.75</replace>
   <replace sel="/parameters/loadout[@variation='0.2']/units/defence/@max">0.5</replace>
   <replace sel="/parameters/loadout[@variation='0.2']/group/@threshold">0</replace>  
-	<!--Wares-->
-  <replace sel="/parameters/economy/prices/build/@min">0.3</replace>
-  <replace sel="/parameters/economy/modulelimits/@production">20</replace>
-  <replace sel="/parameters/workforce/growth/@rate">40</replace>
+  <replace sel="/parameters/mining/damagefactors/@turret">1</replace>
+  <replace sel="/parameters/mining/speedfactors/@ship">1</replace>
+  <replace sel="/parameters/mining/speedfactors/@unit">1</replace>
   <replace sel="/parameters/productioncheck[@reportintermediates='false']/threshold/@resource">0.10</replace>
   <replace sel="/parameters/productioncheck[@reportintermediates='false']/threshold/@product">0.10</replace>
+  <replace sel="/parameters/workforce/growth/@rate">40</replace>
+<!--FE-->
+  <replace sel="//economy/prices/builder/@fee">300000</replace>
+  <replace sel="//economy/prices/build[@shipsalefactor='0.3']/@shipsalefactor">0.4</replace>
+  <add sel="//scriptparams">
+    <category name="ffp_catchup">
+      <!-- game age before drops can start ticking for anyone; note that earliest possible drop is this PLUS min drop interval -->
+      <param name="game_age_for_drops" value="10h"/>
+      <!-- minimum catchup value for drops to be running (if catchup value reduces later the drop timer will be paused, not removed) -->
+      <param name="min_catchup_for_drops" value="0.2"/>
+      <!-- delay between drops for the minimum catchup value that we will allow them to occur -->
+      <param name="base_drop_interval" value="6h"/>
+      <!-- tick interval (set primarily for performance) -->
+      <param name="drop_tick_delta" value="1min"/>
+    </category>
+  </add>
 </diff>
