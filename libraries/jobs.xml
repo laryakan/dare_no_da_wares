@@ -382,23 +382,16 @@
   <replace sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/quota/@galaxy">21</replace>
   <remove sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/quota/@maxgalaxy"/>
   <add sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/location[@faction='argon']" type="@matchextension">false</add>
-  <replace sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/ship/select[@faction='argon']/@tags">[military, medium]</replace>
+  <replace sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/ship/select[@faction='argon']/@tags">[military, tm]</replace>
   <replace sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/ship/loadout/level/@min">0.5</replace>
   <add sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/ship/loadout/level" type="@profile">bell</add>
-  <add sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/subordinates/subordinate[@job='argon_fighter_escort_s_frigate']" type="@assignment">attack</add>
-  <add sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/subordinates/subordinate[@job='argon_fighter_escort_s_frigate']" type="@group">4</add>
-  <add sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/subordinates">
-    <subordinate job="argon_escort_m_solo_DA" assignment="attack" group="1"/>
-  </add>
   <replace sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/category[@faction='argon']/@tags">[military, medium]</replace>
   <replace sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/quota/@galaxy">10</replace>
   <remove sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/quota/@maxgalaxy"/>
   <add sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/location[@faction='argon']" type="@matchextension">false</add>
-  <replace sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/ship/select[@faction='argon']/@tags">[military, medium]</replace>
+  <replace sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/ship/select[@faction='argon']/@tags">[military, tm]</replace>
   <replace sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/ship/loadout/level/@min">0.5</replace>
   <add sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/ship/loadout/level" type="@profile">bell</add>
-  <add sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/subordinates/subordinate[@job='argon_fighter_escort_s_frigate']" type="@assignment">attack</add>
-  <add sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/subordinates/subordinate[@job='argon_fighter_escort_s_frigate']" type="@group">1</add>
   <replace sel="/jobs/job[@id='argon_dronecarrier_patrol_m_sector'][@name='{20204,5001}']/quota/@galaxy">21</replace>
   <remove sel="/jobs/job[@id='argon_dronecarrier_patrol_m_sector'][@name='{20204,5001}']/quota/@maxgalaxy"/>
   <replace sel="/jobs/job[@id='argon_dronecarrier_patrol_m_sector'][@name='{20204,5001}']/quota/@sector">1</replace>
@@ -462,7 +455,6 @@
   <replace sel="/jobs/job[@id='argon_fighter_escort_s_carrier'][@name='{20204,2901}']/ship/loadout/level/@min">0.25</replace>
   <replace sel="/jobs/job[@id='argon_fighter_escort_s_carrier'][@name='{20204,2901}']/ship/loadout/level/@max">1.0</replace>
   <add sel="/jobs/job[@id='argon_fighter_escort_s_carrier'][@name='{20204,2901}']/ship/loadout/level" type="@profile">bell</add>
-  <replace sel="/jobs/job[@id='argon_fighter_escort_s_frigate'][@name='{20204,2901}']/quota/@wing">2</replace>
   <replace sel="/jobs/job[@id='argon_fighter_escort_s_frigate'][@name='{20204,2901}']/ship/select[@faction='argon']/@tags">[military, fighter]</replace>
   <replace sel="/jobs/job[@id='argon_fighter_escort_s_frigate'][@name='{20204,2901}']/ship/loadout/level/@min">0.25</replace>
   <replace sel="/jobs/job[@id='argon_fighter_escort_s_frigate'][@name='{20204,2901}']/ship/loadout/level/@max">1.0</replace>
@@ -859,23 +851,16 @@
   <replace sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/quota/@galaxy">15</replace>
   <remove sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/quota/@maxgalaxy"/>
   <add sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/location[@faction='antigone']" type="@matchextension">false</add>
-  <replace sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/ship/select[@faction='antigone']/@tags">[military, medium]</replace>
+  <replace sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/ship/select[@faction='antigone']/@tags">[military, tm]</replace>
   <replace sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/ship/loadout/level/@min">0.5</replace>
   <add sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/ship/loadout/level" type="@profile">bell</add>
-  <add sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/subordinates/subordinate[@job='antigone_fighter_escort_s_frigate']" type="@assignment">attack</add>
-  <add sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/subordinates/subordinate[@job='antigone_fighter_escort_s_frigate']" type="@group">2</add>
-  <add sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp'][@name='{20204,2901}']/subordinates">
-    <subordinate job="antigone_escort_m_solo_DA" assignment="attack" group="1"/>
-  </add>
   <replace sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/category[@faction='antigone']/@tags">[military, medium]</replace>
   <replace sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/quota/@galaxy">10</replace>
   <remove sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/quota/@maxgalaxy"/>
   <add sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/location[@faction='antigone']" type="@matchextension">false</add>
-  <replace sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/ship/select[@faction='antigone']/@tags">[military, medium]</replace>
+  <replace sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/ship/select[@faction='antigone']/@tags">[military, tm]</replace>
   <replace sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/ship/loadout/level/@min">0.5</replace>
   <add sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/ship/loadout/level" type="@profile">bell</add>
-  <add sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/subordinates/subordinate[@job='antigone_fighter_escort_s_frigate']" type="@assignment">attack</add>
-  <add sel="/jobs/job[@id='antigone_frigate_patrol_m_sector_exp_mission'][@name='{20204,2901}']/subordinates/subordinate[@job='antigone_fighter_escort_s_frigate']" type="@group">1</add>
   <replace sel="/jobs/job[@id='antigone_dronecarrier_patrol_m_sector'][@name='{20204,5001}']/quota/@galaxy">15</replace>
   <remove sel="/jobs/job[@id='antigone_dronecarrier_patrol_m_sector'][@name='{20204,5001}']/quota/@maxgalaxy"/>
   <replace sel="/jobs/job[@id='antigone_dronecarrier_patrol_m_sector'][@name='{20204,5001}']/quota/@sector">1</replace>
@@ -3413,7 +3398,7 @@
   <add sel="/jobs/job[@id='ministry_frigate_escort_m'][@name='{20204,2901}']/ship/loadout/level" type="@profile">bell</add>
   <remove sel="/jobs/job[@id='ministry_frigate_escort_m'][@name='{20204,2901}']/ship/loadout/variation[@exact='0']"/>
   <remove sel="/jobs/job[@id='ministry_frigate_escort_m'][@name='{20204,2901}']/subordinates"/>
-  <replace sel="/jobs/job[@id='ministry_fighter_escort_s_frigate'][@name='{20204,2901}']/quota/@wing">2</replace>
+  <replace sel="/jobs/job[@id='ministry_fighter_escort_s_frigate'][@name='{20204,2901}']/quota/@wing">4</replace>
   <remove sel="/jobs/job[@id='ministry_fighter_escort_s_frigate'][@name='{20204,2901}']/quota/@variation"/>
   <remove sel="/jobs/job[@id='ministry_fighter_escort_s_frigate'][@name='{20204,2901}']/ship/loadout/level[@exact='1.0']/@exact"/>
   <add sel="/jobs/job[@id='ministry_fighter_escort_s_frigate'][@name='{20204,2901}']/ship/loadout/level" type="@min">0.25</add>
@@ -4220,19 +4205,16 @@
   <remove sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector'][@name='{20204,2901}']/quota/@maxgalaxy"/>
   <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector'][@name='{20204,2901}']/quota/@sector">1</replace>
   <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector'][@name='{20204,2901}']/location[@faction='split']" type="@matchextension">false</add>
-  <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector'][@name='{20204,2901}']/ship/select[@faction='split']/@tags">[military, medium]</replace>
+  <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector'][@name='{20204,2901}']/ship/select[@faction='split']/@tags">[military, tm]</replace>
   <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector'][@name='{20204,2901}']/ship/loadout/level/@min">0.5</replace>
   <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector'][@name='{20204,2901}']/ship/loadout/level" type="@profile">bell</add>
   <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector'][@name='{20204,2901}']/subordinates/subordinate[@job='zyarth_fighter_escort_s_frigate']" type="@assignment">attack</add>
   <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector'][@name='{20204,2901}']/subordinates/subordinate[@job='zyarth_fighter_escort_s_frigate']" type="@group">4</add>
-  <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector'][@name='{20204,2901}']/subordinates">
-    <subordinate job="zyarth_escort_m_solo_DA" assignment="attack" group="1"/>
-  </add>
   <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/category[@faction='split']/@tags">[military, medium]</replace>
   <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/quota/@galaxy">10</replace>
   <remove sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/quota/@maxgalaxy"/>
   <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/location[@faction='split']" type="@matchextension">false</add>
-  <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/ship/select[@faction='split']/@tags">[military, medium]</replace>
+  <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/ship/select[@faction='split']/@tags">[military, tm]</replace>
   <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/ship/loadout/level/@min">0.5</replace>
   <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/ship/loadout/level" type="@profile">bell</add>
   <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/subordinates/subordinate[@job='zyarth_fighter_escort_s_frigate']" type="@assignment">attack</add>
@@ -4305,19 +4287,16 @@
   <remove sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial'][@name='{20204,10050}']/quota/@maxgalaxy"/>
   <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial'][@name='{20204,10050}']/quota/@sector">1</replace>
   <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial'][@name='{20204,10050}']/location[@faction='freesplit']" type="@matchextension">false</add>
-  <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial'][@name='{20204,10050}']/ship/select[@faction='split']/@tags">[military, medium]</replace>
+  <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial'][@name='{20204,10050}']/ship/select[@faction='split']/@tags">[military, tm]</replace>
   <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial'][@name='{20204,10050}']/ship/loadout/level/@min">0.5</replace>
   <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial'][@name='{20204,10050}']/ship/loadout/level" type="@profile">bell</add>
   <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial'][@name='{20204,10050}']/subordinates/subordinate[@job='zyarth_fighter_escort_s_frigate']" type="@assignment">attack</add>
   <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial'][@name='{20204,10050}']/subordinates/subordinate[@job='zyarth_fighter_escort_s_frigate']" type="@group">4</add>
-  <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial'][@name='{20204,10050}']/subordinates">
-    <subordinate job="zyarth_escort_m_solo_DA" assignment="attack" group="1"/>
-  </add>
   <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial_mission'][@name='{20204,10050}']/category[@faction='split']/@tags">[military, medium, colonial, colonialpolice]</replace>
   <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial_mission'][@name='{20204,10050}']/quota/@galaxy">4</replace>
   <remove sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial_mission'][@name='{20204,10050}']/quota/@maxgalaxy"/>
   <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial_mission'][@name='{20204,10050}']/location[@faction='freesplit']" type="@matchextension">false</add>
-  <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial_mission'][@name='{20204,10050}']/ship/select[@faction='split']/@tags">[military, medium]</replace>
+  <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial_mission'][@name='{20204,10050}']/ship/select[@faction='split']/@tags">[military, tm]</replace>
   <replace sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial_mission'][@name='{20204,10050}']/ship/loadout/level/@min">0.5</replace>
   <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial_mission'][@name='{20204,10050}']/ship/loadout/level" type="@profile">bell</add>
   <add sel="/jobs/job[@id='zyarth_frigate_patrol_m_sector_colonial_mission'][@name='{20204,10050}']/subordinates/subordinate[@job='zyarth_fighter_escort_s_frigate']" type="@assignment">attack</add>
@@ -4434,21 +4413,14 @@
   <add sel="/jobs/job[@id='court_frigate_patrol_m_sector'][@name='{20204,2901}']/location[@faction='[court, freesplit]']" type="@matchextension">false</add>
   <replace sel="/jobs/job[@id='court_frigate_patrol_m_sector'][@name='{20204,2901}']/ship/loadout/level/@min">0.5</replace>
   <add sel="/jobs/job[@id='court_frigate_patrol_m_sector'][@name='{20204,2901}']/ship/loadout/level" type="@profile">bell</add>
-  <replace sel="/jobs/job[@id='court_frigate_patrol_m_sector'][@name='{20204,2901}']/subordinates/subordinate[@job='court_frigate_escort_m']/@job">court_fighter_escort_s_frigate</replace>
-  <add sel="/jobs/job[@id='court_frigate_patrol_m_sector'][@name='{20204,2901}']/subordinates/subordinate[@job='court_fighter_escort_s_frigate']" type="@assignment">attack</add>
-  <add sel="/jobs/job[@id='court_frigate_patrol_m_sector'][@name='{20204,2901}']/subordinates/subordinate[@job='court_fighter_escort_s_frigate']" type="@group">4</add>
-  <add sel="/jobs/job[@id='court_frigate_patrol_m_sector'][@name='{20204,2901}']/subordinates">
-    <subordinate job="court_escort_m_solo_DA" assignment="attack" group="1"/>
-  </add>
+
   <replace sel="/jobs/job[@id='court_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/orders/order/param[@name='range'][@value='class.zone']/@value">class.sector</replace>
   <replace sel="/jobs/job[@id='court_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/quota/@galaxy">10</replace>
   <remove sel="/jobs/job[@id='court_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/quota/@maxgalaxy"/>
   <add sel="/jobs/job[@id='court_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/location[@faction='[court, freesplit]']" type="@matchextension">false</add>
   <replace sel="/jobs/job[@id='court_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/ship/loadout/level/@min">0.5</replace>
   <add sel="/jobs/job[@id='court_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/ship/loadout/level" type="@profile">bell</add>
-  <replace sel="/jobs/job[@id='court_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/subordinates/subordinate[@job='court_frigate_escort_m']/@job">court_fighter_escort_s_frigate</replace>
-  <add sel="/jobs/job[@id='court_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/subordinates/subordinate[@job='court_fighter_escort_s_frigate']" type="@assignment">attack</add>
-  <add sel="/jobs/job[@id='court_frigate_patrol_m_sector_mission'][@name='{20204,2901}']/subordinates/subordinate[@job='court_fighter_escort_s_frigate']" type="@group">1</add>
+
   <replace sel="/jobs/job[@id='court_corvette_patrol_m_sector_exp'][@name='{20204,2901}']/quota/@galaxy">24</replace>
   <replace sel="/jobs/job[@id='court_corvette_patrol_m_sector_exp'][@name='{20204,2901}']/quota/@sector">1</replace>
   <add sel="/jobs/job[@id='court_corvette_patrol_m_sector_exp'][@name='{20204,2901}']/location[@faction='[court, freesplit]']" type="@matchextension">false</add>
@@ -4513,8 +4485,6 @@
       <subordinate job="court_fighter_escort_s_frigate"/>
     </subordinates>
   </add>
-  <replace sel="/jobs/job[@id='court_fighter_escort_s_frigate'][@name='{20204,2901}']/quota/@wing">2</replace>
-  <remove sel="/jobs/job[@id='court_fighter_escort_s_frigate'][@name='{20204,2901}']/quota/@variation"/>
   <replace sel="/jobs/job[@id='court_fighter_escort_s_frigate'][@name='{20204,2901}']/ship/select[@faction='court']/@tags">[military, fighter]</replace>
   <replace sel="/jobs/job[@id='court_fighter_escort_s_frigate'][@name='{20204,2901}']/ship/loadout/level/@min">0.25</replace>
   <replace sel="/jobs/job[@id='court_fighter_escort_s_frigate'][@name='{20204,2901}']/ship/loadout/level/@max">1.0</replace>
@@ -6187,7 +6157,7 @@
   <replace sel="/jobs/job[@id='boron_bogas_trader_l'][@name='{20204,1401}']/basket/@basket">bio_boron_da</replace>
   <replace sel="/jobs/job[@id='boron_bogas_trader_l'][@name='{20204,1401}']/quota/@galaxy">10</replace>
   <remove sel="/jobs/job[@id='boron_bogas_trader_l'][@name='{20204,1401}']/quota/@cluster"/>
-  <add sel="/jobs/job[@id='boron_bogas_trader_l'][@name='{20204,1401}']/quota" type="@sector">1</add>
+  <add sel="/jobs/job[@id='boron_bogas_trader_l'][@name='{20204,1401}']/quota" type="@sector">1</add> 
   <replace sel="/jobs/job[@id='boron_bogas_trader_m'][@name='{20204,1401}']/basket/@basket">bio_boron_da</replace>
   <replace sel="/jobs/job[@id='boron_bogas_trader_m'][@name='{20204,1401}']/quota/@galaxy">10</replace>
   <remove sel="/jobs/job[@id='boron_bogas_trader_m'][@name='{20204,1401}']/quota/@cluster"/>
