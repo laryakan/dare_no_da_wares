@@ -4969,6 +4969,7 @@
   <remove sel="/jobs/job[@id='fallensplit_fighter_escort_s'][@name='{20204,3401}']/quota/@variation"/>
   <replace sel="/jobs/job[@id='fallensplit_fighter_escort_s_escort'][@name='{20204,3401}']/quota/@wing">1</replace>
   <remove sel="/jobs/job[@id='fallensplit_fighter_escort_s_escort'][@name='{20204,3401}']/quota/@variation"/>
+  <!--
   <add sel="/jobs/job[@id='argon_destroyer_patrol_l_sector_spl'][@name='{20204,3301}']" type="@disabled">true</add>
   <add sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_spl'][@name='{20204,2901}']" type="@disabled">true</add>
   <add sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_spl_mission'][@name='{20204,2901}']" type="@disabled">true</add>
@@ -4985,6 +4986,7 @@
   <add sel="/jobs/job[@id='trinity_fighter_patrol_s_zone_spl'][@name='{20204,2901}']" type="@disabled">true</add>
   <add sel="/jobs/job[@id='ministry_destroyer_patrol_l_spl'][@name='{20204,3301}']" type="@disabled">true</add>
   <add sel="/jobs/job[@id='teladi_fighter_patrol_s_zone_exp_spl'][@name='{20204,2901}']" type="@disabled">true</add>
+  -->
   <replace sel="/jobs/job[@id='xenon_free_miner_m_mineral_spl'][@name='{20204,1901}']/@name">{20204,5901}</replace>
   <add sel="/jobs/job[@id='xenon_free_miner_m_mineral_spl'][@name='{20204,5901}']" type="@comment">DA silicon</add>
   <replace sel="/jobs/job[@id='xenon_free_miner_m_mineral_spl'][@name='{20204,5901}']/modifiers/@commandeerable">false</replace>
