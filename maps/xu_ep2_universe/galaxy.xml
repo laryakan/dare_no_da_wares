@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate028To041']" />
+  <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate046To008']" />
+  <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate015To043']" />
+  <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate009To019']" />
+  <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate405To418']" />
+  <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGateDAG112ATo112B']" /> 
+  <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate018to023']" />
+  <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate014to006']" />
+</diff>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="DeadAirRE" name="DeadAir: Reemergence" description="Combination of Dynamic Wars, Fill, Gate, God, Jobs, and Wares for use with X4: Reemergence" author="DeadAir" version="200" date="2024-03-28" save="0" enabled="1">
-  <dependency id="ego_dlc_split" optional="true" name="Split Vendetta" />
-  <dependency id="ego_dlc_terran" optional="true" name="Cradle of Humanity" />
-  <dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice" />
-  <dependency id="ego_dlc_boron" optional="true" name="Kingdom End"/>
-  <dependency id="reemergence" optional="false" name="X4:Reemergence"/>	
+<content id="deadair_re" name="DeadAir Reemergence" description="Modifies DeadAir_Eco and DeadAir_Scripts for use in RE" author="X4:RE Team" version="100" date="2024-06-24" save="0" enabled="1"> 	
+  <dependency id="ego_dlc_split" optional="false" name="Split Vendetta" />
+  <dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity" />
+  <dependency id="ego_dlc_boron" optional="false" name="Kingdom End" />
+  <dependency id="ego_dlc_pirate" optional="false" name="Tides of Avarice"/>
+  <dependency id="DeadAir_Eco" optional="false" name="DeadAir Economy Overhaul"/>	 
+  <dependency id="DeadAir_Scripts" optional="false" name="DeadAir Scripts"/>	   
 </content>

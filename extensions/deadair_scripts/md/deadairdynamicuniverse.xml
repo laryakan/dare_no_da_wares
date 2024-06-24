@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <remove sel="/mdscript/cues/cue/actions/set_value[@name='$DADVT.$DAGodEnable']"/>
+  <remove sel="/mdscript/cues/cue/actions/set_value[@name='$DADVT.$DAGateTrackedGates']"/>
+  <remove sel="/mdscript/cues/cue/actions/set_value[@name='$DADVT.$DAGateZoneMacros']"/>
+  <remove sel="/mdscript/cues/cue/actions/do_if[@value='faction.split?']"/>
+  <remove sel="/mdscript/cues/cue/actions/do_if[@value='faction.terran?']"/>
+  <remove sel="/mdscript/cues/cue/actions/set_value[@name='$DADVT.$DAGateDetailedDebug']"/>
+  <remove sel="/mdscript/cues/cue/actions/set_value[@name='$DADVT.$DAGateShowAllGates']"/>
+  <remove sel="/mdscript/cues/cue/actions/set_value[@name='$UpdateOnLoadGateTimer']"/>
+  <remove sel="/mdscript/cues/cue/cues/cue[@name='VerifyVariablesExist']/actions/include_actions[@ref='LibraryCheckGateVariables']"/>
+</diff>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <remove sel="/macros/macro[@name='ZoneDAG1_Cluster_112_Sector001_macro']/connections/connection[@name='connection_ClusterGateDAG112ATo112B']" />		
+  <remove sel="/macros/macro[@name='ZoneDAG1_Cluster_112_Sector002_macro']/connections/connection[@name='connection_ClusterGateDAG112BTo112A']" />	
+</diff>

@@ -1,113 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
-  <add sel="/macros">
-    <macro name="ZoneDA1_Cluster_06_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA2_Cluster_06_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA1_Cluster_14_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA2_Cluster_14_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA1_Cluster_07_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA2_Cluster_07_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA1_Cluster_30_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA2_Cluster_30_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA1_Cluster_11_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA2_Cluster_11_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA1_Cluster_12_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA2_Cluster_12_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA1_Cluster_36_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA2_Cluster_36_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA1_Cluster_35_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA2_Cluster_35_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA1_Cluster_23_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA2_Cluster_23_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA1_Cluster_47_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA2_Cluster_47_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA1_Cluster_40_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
-  <add sel="/macros">
-    <macro name="ZoneDA2_Cluster_40_Sector001_macro" class="zone">
-      <component ref="standardzone"/>
-    </macro>
-  </add>
+  <remove sel="/macros/macro[@name='ZoneDAG3_Cluster_28_Sector001_macro']/connections/connection[@name='connection_ClusterGate028To041']" />		
+  <remove sel="/macros/macro[@name='ZoneDAG6_Cluster_41_Sector001_macro']/connections/connection[@name='connection_ClusterGate041To028']" />
+  <remove sel="/macros/macro[@name='ZoneDAG3_Cluster_46_Sector001_macro']/connections/connection[@name='connection_ClusterGate046To008']" />		
+  <remove sel="/macros/macro[@name='ZoneDAG6_Cluster_08_Sector001_macro']/connections/connection[@name='connection_ClusterGate008To046']" />
+  <remove sel="/macros/macro[@name='ZoneDAG5_Cluster_15_Sector001_macro']/connections/connection[@name='connection_ClusterGate015To043']" />		
+  <remove sel="/macros/macro[@name='ZoneDAG2_Cluster_43_Sector001_macro']/connections/connection[@name='connection_ClusterGate043To015']" />
+  <remove sel="/macros/macro[@name='ZoneDAG6_Cluster_19_Sector001_macro']/connections/connection[@name='connection_ClusterGate019To009']" />		
+  <remove sel="/macros/macro[@name='ZoneDAG3_Cluster_09_Sector001_macro']/connections/connection[@name='connection_ClusterGate009To019']" />
+  <remove sel="/macros/macro[@name='ZoneDAG4_Cluster_18_Sector001_macro']/connections/connection[@name='connection_ClusterGate018to023']" />		
+  <remove sel="/macros/macro[@name='ZoneDAG1_Cluster_23_Sector001_macro']/connections/connection[@name='connection_ClusterGate023to018']" />
+  <remove sel="/macros/macro[@name='ZoneDAG3_Cluster_14_Sector001_macro']/connections/connection[@name='connection_ClusterGate014to006']" />		
+  <remove sel="/macros/macro[@name='ZoneDAG1_Cluster_06_Sector001_macro']/connections/connection[@name='connection_ClusterGate006to014']" />		
 </diff>
