@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/wares/ware[@id='module_gen_prod_da_adv_schematics_01']">
+	<owner faction="otas"/>
+  </add>
+  <add sel="/wares/ware[@id='module_gen_prod_da_mil_schematics_01']">
+	<owner faction="otas"/>
+  </add>
+  <add sel="/wares/ware[@id='module_gen_prod_da_laborunion_contracts_01']">
+	<owner faction="otas"/>
+  </add>  
+</diff>

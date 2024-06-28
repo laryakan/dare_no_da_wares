@@ -28,5 +28,37 @@
   <remove sel="/god/products/product[@id='tel_dlc_split_advancedelectronics']/@startactive"/>
   <remove sel="/god/products/product[@id='tel_dlc_split_weaponcomponents']/@startactive"/>
   <remove sel="/god/products/product[@id='tel_dlc_split_teladianium']/@startactive"/>
-  <remove sel="/god/products/product[@id='tel_dlc_split_siliconwafers']/@startactive"/>  
+  <remove sel="/god/products/product[@id='tel_dlc_split_siliconwafers']/@startactive"/> 
+
+  <add sel="/god/products">
+    <product id="otas_da_adv_schematics" ware="da_adv_schematics" owner="otas" type="factory">
+      <quotas>
+        <quota galaxy="2" sector="1" />
+      </quotas>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[otas]" relation="self" comparison="exact" matchextension="false"/>
+      <module>
+        <select ware="da_adv_schematics" race="otas" faction="otas"/>
+      </module>
+    </product>
+
+    <product id="otas_da_mil_schematics" ware="da_mil_schematics" owner="otas" type="factory">
+      <quotas>
+        <quota galaxy="3" sector="2" />
+      </quotas>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[otas]" relation="self" comparison="exact" matchextension="false"/>
+      <module>
+        <select ware="da_mil_schematics" race="otas" faction="otas"/>
+      </module>
+    </product>
+
+    <product id="otas_da_laborunion_contracts" ware="da_laborunion_contracts" owner="otas" type="factory">
+      <quotas>
+        <quota galaxy="4" sector="2" />
+      </quotas>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="[otas]" relation="self" comparison="exact" matchextension="false"/>
+      <module>
+        <select ware="da_laborunion_contracts" race="otas" faction="otas"/>
+      </module>
+    </product>
+  </add>  
 </diff>
