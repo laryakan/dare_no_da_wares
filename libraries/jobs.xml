@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
+<!--Split DLC Jobs-->
   <replace sel="/jobs/job[@id='argon_destroyer_patrol_l_sector_spl'][@name='{20204,3301}']/quota[@galaxy='0'][@sector='1']/@galaxy">2</replace>
-  
-
-  
   <replace sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_spl'][@name='{20204,2901}']/quota[@galaxy='0'][@maxgalaxy='0'][@sector='2']/@galaxy">9</replace>
   <replace sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_spl'][@name='{20204,2901}']/quota[@galaxy='9'][@maxgalaxy='0'][@sector='2']/@maxgalaxy">23</replace>
   <replace sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_spl_mission'][@name='{20204,2901}']/quota[@galaxy='0'][@maxgalaxy='0'][@sector='1']/@galaxy">5</replace>
@@ -14,27 +12,20 @@
   <replace sel="/jobs/job[@id='argon_dronecarrier_patrol_m_sector_spl_mission'][@name='{20204,5001}']/quota[@galaxy='3'][@maxgalaxy='0'][@sector='1']/@maxgalaxy">3</replace>
   <replace sel="/jobs/job[@id='argon_fighter_patrol_s_zone_spl'][@name='{20204,2901}']/quota[@galaxy='0'][@maxgalaxy='0'][@zone='1']/@galaxy">12</replace>
   <replace sel="/jobs/job[@id='argon_fighter_patrol_s_zone_spl'][@name='{20204,2901}']/quota[@galaxy='12'][@maxgalaxy='0'][@zone='1']/@maxgalaxy">20</replace>
-  
   <replace sel="/jobs/job[@id='paranid_carrier_patrol_xl_cluster_spl'][@name='{20204,6301}']/quota[@galaxy='0'][@maxgalaxy='1']/@galaxy">1</replace>
-  
   <replace sel="/jobs/job[@id='paranid_corvette_patrol_m_sector_spl'][@name='{20204,10044}']/quota[@galaxy='0'][@maxgalaxy='0'][@sector='2']/@galaxy">7</replace>
   <replace sel="/jobs/job[@id='paranid_corvette_patrol_m_sector_spl'][@name='{20204,10044}']/quota[@galaxy='7'][@maxgalaxy='0'][@sector='2']/@maxgalaxy">17</replace>
   <replace sel="/jobs/job[@id='paranid_corvette_patrol_m_sector_spl_mission'][@name='{20204,10044}']/quota[@galaxy='0'][@maxgalaxy='0'][@sector='1']/@galaxy">5</replace>
   <replace sel="/jobs/job[@id='paranid_corvette_patrol_m_sector_spl_mission'][@name='{20204,10044}']/quota[@galaxy='5'][@maxgalaxy='0'][@sector='1']/@maxgalaxy">5</replace>
   <replace sel="/jobs/job[@id='paranid_fighter_patrol_s_zone_spl'][@name='{20204,2901}']/quota[@galaxy='0'][@maxgalaxy='0'][@zone='1']/@galaxy">18</replace>
   <replace sel="/jobs/job[@id='paranid_fighter_patrol_s_zone_spl'][@name='{20204,2901}']/quota[@galaxy='18'][@maxgalaxy='0'][@zone='1']/@maxgalaxy">29</replace>
-  
   <replace sel="/jobs/job[@id='trinity_carrier_patrol_xl_cluster_spl'][@name='{20204,6301}']/quota[@galaxy='0'][@maxgalaxy='1']/@galaxy">1</replace>
-  
   <replace sel="/jobs/job[@id='trinity_corvette_patrol_m_sector_spl'][@name='{20204,10044}']/quota[@galaxy='0'][@maxgalaxy='0'][@sector='2']/@galaxy">7</replace>
   <replace sel="/jobs/job[@id='trinity_corvette_patrol_m_sector_spl'][@name='{20204,10044}']/quota[@galaxy='7'][@maxgalaxy='0'][@sector='2']/@maxgalaxy">17</replace>
   <replace sel="/jobs/job[@id='trinity_corvette_patrol_m_sector_spl_mission'][@name='{20204,10044}']/quota[@galaxy='0'][@maxgalaxy='0'][@sector='1']/@galaxy">5</replace>
   <replace sel="/jobs/job[@id='trinity_corvette_patrol_m_sector_spl_mission'][@name='{20204,10044}']/quota[@galaxy='5'][@maxgalaxy='0'][@sector='1']/@maxgalaxy">5</replace>
   <replace sel="/jobs/job[@id='trinity_fighter_patrol_s_zone_spl'][@name='{20204,2901}']/quota[@galaxy='0'][@maxgalaxy='0'][@zone='1']/@galaxy">18</replace>
   <replace sel="/jobs/job[@id='trinity_fighter_patrol_s_zone_spl'][@name='{20204,2901}']/quota[@galaxy='18'][@maxgalaxy='0'][@zone='1']/@maxgalaxy">29</replace>
-  
-
-  
   <replace sel="/jobs/job[@id='ministry_destroyer_patrol_l_spl'][@name='{20204,3301}']/quota[@galaxy='0']/@galaxy">1</replace>
   <replace sel="/jobs/job[@id='teladi_fighter_patrol_s_zone_exp_spl'][@name='{20204,2901}']/quota[@galaxy='0'][@zone='1']/@galaxy">12</replace>
 </diff>  
