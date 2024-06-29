@@ -1,5 +1,440 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
+	<!--DEFENCE STATION MAX LOADOUT-->
+  <replace sel="/god/stations/station[@id='tradestation_argon_01'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <add sel="/god/stations/station[@id='arg_defence_cluster_06_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='arg_defence_cluster_06_sector002'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='arg_defence_cluster_07_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='arg_defence_cluster_08_sector001_01'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='arg_defence_cluster_08_sector001_02'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='arg_defence_cluster_29_sector002'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='arg_defence_cluster_30_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='arg_defence_cluster_46_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <replace sel="/god/stations/station[@id='tradestation_antigone'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <add sel="/god/stations/station[@id='ant_defence_cluster_13_sector001_01'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='ant_defence_cluster_13_sector001_02'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='ant_defence_cluster_40_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='ant_defence_cluster_41_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='ant_defence_cluster_27_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <replace sel="/god/stations/station[@id='tradestation_hatikvah_01'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='freeport_hatikvah_01'][@type='piratebase']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='freeport_hatikvah_02'][@type='piratebase']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='freeport_hatikvah_03'][@type='piratebase']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <add sel="/god/stations/station[@id='hat_defence_cluster_29_sector001_01'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='hat_defence_cluster_29_sector001_02'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <replace sel="/god/stations/station[@id='tradestation_paranid'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <add sel="/god/stations/station[@id='par_defence_cluster_10_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='par_defence_cluster_18_sector001_01'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='par_defence_cluster_18_sector001_02'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='par_defence_cluster_47_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='par_defence_cluster_22_sector001_01'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='par_defence_cluster_22_sector001_02'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='par_defence_cluster_37_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='par_defence_cluster_38_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='par_defence_cluster_23_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <replace sel="/god/stations/station[@id='tradestation_holyorder'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <add sel="/god/stations/station[@id='hol_defence_cluster_11_sector001_01'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='hol_defence_cluster_11_sector001_02'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='hol_defence_cluster_12_sector001_01'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='hol_defence_cluster_12_sector001_02'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='hol_defence_cluster_24_sector001_01'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='hol_defence_cluster_24_sector001_02'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='hol_defence_cluster_35_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='hol_defence_cluster_36_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <replace sel="/god/stations/station[@id='ringstation_01'][@type='tradingstation']/station[@ref='tradestation_tel_ring']/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='ringstation_02'][@type='tradingstation']/station[@ref='tradestation_tel_ring']/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='ringstation_03'][@type='tradingstation']/station[@ref='tradestation_tel_ring']/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_01_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_01_sector002'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_01_sector003'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_05_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_09_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_15_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_15_sector002'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_19_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_42_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_43_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_19_sector002'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_20_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_02_sector001_01'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_02_sector001_02'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>  
+  <add sel="/god/stations/station[@id='tel_defence_cluster_03_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_39_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_34_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <replace sel="/god/stations/station[@id='tel_processing'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_16_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_16_sector001'][@type='defence']/quotas/quota/@zone">2</replace>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_25_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_25_sector001'][@type='defence']/quotas/quota/@zone">2</replace>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_32_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_32_sector001'][@type='defence']/quotas/quota/@zone">2</replace>
+  <replace sel="/god/stations/station[@id='spl_defence_cluster_400_sector001'][@type='factory']/location[@macro='cluster_400_sector001_macro']/@class">zone</replace>
+  <replace sel="/god/stations/station[@id='spl_defence_cluster_400_sector001'][@type='factory']/location[@macro='cluster_400_sector001_macro']/@macro">zone001_cluster_400_sector001_macro</replace>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_400_sector001'][@type='factory']/position"/>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_400_sector001'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_400_sector001'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
+  </add>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_401_sector001'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_401_sector001'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
+  </add>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_401_sector001_2'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_401_sector001_2'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
+  </add>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_402_sector001'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_402_sector001'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
+  </add>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_402_sector001_2'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_402_sector001_2'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
+  </add>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_403_sector001'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_403_sector001'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
+  </add>
+  <replace sel="/god/stations/station[@id='spl_defence_cluster_404_sector001'][@type='factory']/quotas/quota/@galaxy">2</replace>
+  <replace sel="/god/stations/station[@id='spl_defence_cluster_404_sector001'][@type='factory']/quotas/quota/@zone">2</replace>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_404_sector001'][@type='factory']/position"/>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_404_sector001'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_404_sector001'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
+  </add>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_404_sector001_2'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_404_sector001_2'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
+  </add>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_405_sector001'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_405_sector001'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
+  </add>
+  <replace sel="/god/stations/station[@id='tradestation_split_01'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_406_sector001'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_406_sector001'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
+  </add>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_406_sector001_2'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_406_sector001_2'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
+  </add>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_418_sector001'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_418_sector001'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
+  </add>
+  <remove sel="/god/stations/station[@id='spl_defence_cluster_418_sector001_2'][@type='factory']/station/loadout/@useplanloadout"/>
+  <add sel="/god/stations/station[@id='spl_defence_cluster_418_sector001_2'][@type='factory']/station/loadout">
+    <level exact="1.0"/>
+  </add>
+  <replace sel="/god/stations/station[@id='tradestation_freesplit_01'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <add sel="/god/stations/station[@id='frf_defence_cluster_407_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='frf_defence_cluster_408_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='frf_defence_cluster_408_sector002'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='frf_defence_cluster_409_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='frf_defence_cluster_410_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='frf_defence_cluster_411_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='frf_defence_cluster_412_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='frf_defence_cluster_421_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_419_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='tel_defence_cluster_420_sector001'][@type='factory']/station">
+    <loadout>
+      <level exact="1.0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='xen_defence_cluster_413_sector001'][@type='defence']/station">
+    <loadout>
+      <level exact="1.0"/>
+      <variation exact="0"/>
+    </loadout>
+  </add>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_414_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_414_sector001'][@type='defence']/quotas/quota/@zone">2</replace>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_414_sector001'][@type='defence']/location[@macro='zone001_cluster_414_sector001_macro']/@macro">zone005_cluster_414_sector001_macro</replace>
+  <add sel="/god/stations/station[@id='xen_defence_cluster_414_sector001'][@type='defence']/station">
+    <loadout>
+      <level exact="1.0"/>
+      <variation exact="0"/>
+    </loadout>
+  </add>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_415_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_415_sector001'][@type='defence']/quotas/quota/@zone">2</replace>
+  <replace sel="/god/stations/station[@id='xen_defence_cluster_415_sector001'][@type='defence']/location[@macro='zone001_cluster_415_sector001_macro']/@macro">zone004_cluster_415_sector001_macro</replace>
+  <add sel="/god/stations/station[@id='xen_defence_cluster_415_sector001'][@type='defence']/station">
+    <loadout>
+      <level exact="1.0"/>
+      <variation exact="0"/>
+    </loadout>
+  </add>
+  <replace sel="/god/stations/station[@id='shipyard_xenon_cluster_415'][@type='shipyard']/location[@macro='cluster_415_sector001_macro']/@class">zone</replace>
+  <replace sel="/god/stations/station[@id='shipyard_xenon_cluster_415'][@type='shipyard']/location[@macro='cluster_415_sector001_macro']/@macro">zone001_cluster_415_sector001_macro</replace>
+  <add sel="/god/stations/station[@id='xen_defence_cluster_424_sector001'][@type='defence']/station">
+    <loadout>
+      <level exact="1.0"/>
+      <variation exact="0"/>
+    </loadout>
+  </add>
+  <add sel="/god/stations/station[@id='xen_defence_cluster_424_sector002'][@type='defence']/station">
+    <loadout>
+      <level exact="1.0"/>
+      <variation exact="0"/>
+    </loadout>
+  </add>
+  <replace sel="/god/stations/station[@id='pio_defence_cluster_113_sector001'][@type='factory']/station/loadout/level[@exact='0.7']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='pio_defence_cluster_114_sector001'][@type='factory']/station/loadout/level[@exact='0.7']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='pio_processing'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='pio_defence_cluster_115_sector001'][@type='factory']/station/loadout/level[@exact='0.7']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_defence_602_001'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_trade_602_001'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_defence_603_001'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_wharf_603_001'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_trade_604_001'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_defence_606_003'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_tradingport_606_003'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_defence_606_002'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_alliancehub_606_002'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_defence_606_001'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_wharf_606_001'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_shipyard_606_001'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_defence_607_001'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_defence_608_001'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_defence_609_001'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
+  <replace sel="/god/stations/station[@id='boron_equipment_609_001'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace> 
+
+  
+	<!--SPLIT DLC-->
   <remove sel="/god/stations/station[@id='wharf_split_02']/@startactive"/>
   <remove sel="/god/stations/station[@id='arg_defence_cluster_416_sector001']/@startactive"/> 
   <remove sel="/god/stations/station[@id='arg_defence_cluster_416_sector002']/@startactive"/>
@@ -9,7 +444,6 @@
   <remove sel="/god/stations/station[@id='par_defence_cluster_423_sector002']/@startactive"/>
   <remove sel="/god/stations/station[@id='par_defence_cluster_422_sector001']/@startactive"/>
   <remove sel="/god/stations/station[@id='par_wharf_cluster_422_sector001']/@startactive"/>
-  
   <remove sel="/god/products/product[@id='arg_dlc_split_energycells']/@startactive"/>
   <remove sel="/god/products/product[@id='arg_dlc_split_foodrations']/@startactive"/>
   <remove sel="/god/products/product[@id='arg_dlc_split_meat']/@startactive"/>
@@ -33,7 +467,7 @@
   <add sel="/god/products">
     <product id="otas_da_adv_schematics" ware="da_adv_schematics" owner="otas" type="factory">
       <quotas>
-        <quota galaxy="2" sector="1" />
+        <quota galaxy="4" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[otas]" relation="self" comparison="exact" matchextension="false"/>
       <module>
@@ -43,7 +477,7 @@
 
     <product id="otas_da_mil_schematics" ware="da_mil_schematics" owner="otas" type="factory">
       <quotas>
-        <quota galaxy="3" sector="2" />
+        <quota galaxy="8" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[otas]" relation="self" comparison="exact" matchextension="false"/>
       <module>
@@ -53,7 +487,7 @@
 
     <product id="otas_da_laborunion_contracts" ware="da_laborunion_contracts" owner="otas" type="factory">
       <quotas>
-        <quota galaxy="4" sector="2" />
+        <quota galaxy="16" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[otas]" relation="self" comparison="exact" matchextension="false"/>
       <module>
