@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<mdscript name="DAJobShipTracker" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		<cue name="Init">
+			<conditions>
+				<check_any>
+					<event_universe_generated/>
+					<event_game_loaded/>
+				</check_any>
+			</conditions>
+			<actions>
+				<find_sector groupname="$AllSectorGroup" multiple="true"/>
+				<find_station_by_true_owner groupname="$AllXenonShipyards" faction="faction.xenon" multiple="true" space="player.galaxy" functional="true" shipyard="true"/>
+				<set_value name="$JobsToCapture" exact="[]"/>
+				<do_for_each name="$Tag" in="['DACriticalTagxenon','DACoreTagxenon','DABorderTagxenon','DAContestedTagxenon']">
+					<set_value name="$JobTag" exact="tag.{$Tag}"/>
+					<get_suitable_job result="$TempJob" faction="faction.xenon" tags="$JobTag" includeinactive="true" multiple="true"/>
+					<do_if value="$TempJob? and (not $JobsToCapture.indexof.{$TempJob})">
+						<append_to_list name="$JobsToCapture" exact="$TempJob"/>
+					</do_if>
+					<remove_value name="$JobTag"/>
+					<remove_value name="$TempJob"/>
+				</do_for_each>
+				<debug_text text="'DAJobShipTracker -- Init -- Capturing %s jobs for info printing.'.[$JobsToCapture.count]" context="false" filter="scripts"/>
+			</actions>
+			<cues>
+				<cue name="CaptureXenonActivation" instantiate="true">
+					<conditions>
+						<event_job_ship_activated/>
+						<check_value value="event.param.trueowner == faction.xenon"/>
+						<check_value value="player.age gt 5s"/>
+					</conditions>
+					<actions>
+						<do_if value="$JobsToCapture.indexof.{event.param.job}">
+							<debug_text text="'CaptureXenonActivation -- %s(%s) in %s information -- Job: %s -- JobMainSector: %s'.[event.param.knownname,event.param.idcode,event.param.sector.knownname,event.param.job,event.param.jobmainsector.knownname]" context="false" filter="scripts"/>
+						</do_if>
+					</actions>
+				</cue>
+			</cues>
+		</cue>
+	</cues>
+</mdscript>

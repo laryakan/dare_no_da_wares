@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
-	<!--DEFENCE STATION MAX LOADOUT-->
+	<!--Defense Station Max Loadout-->
   <replace sel="/god/stations/station[@id='tradestation_argon_01'][@type='tradingstation']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
   <add sel="/god/stations/station[@id='arg_defence_cluster_06_sector001'][@type='factory']/station">
     <loadout>
@@ -259,7 +259,6 @@
   </add>
   <replace sel="/god/stations/station[@id='tel_processing'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
   <replace sel="/god/stations/station[@id='xen_defence_cluster_16_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
-  <replace sel="/god/stations/station[@id='xen_defence_cluster_16_sector001'][@type='defence']/quotas/quota/@zone">2</replace>
   <replace sel="/god/stations/station[@id='xen_defence_cluster_25_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
   <replace sel="/god/stations/station[@id='xen_defence_cluster_25_sector001'][@type='defence']/quotas/quota/@zone">2</replace>
   <replace sel="/god/stations/station[@id='xen_defence_cluster_32_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
@@ -464,6 +463,8 @@
   <remove sel="/god/products/product[@id='tel_dlc_split_teladianium']/@startactive"/>
   <remove sel="/god/products/product[@id='tel_dlc_split_siliconwafers']/@startactive"/> 
 
+  
+	<!--OTAS DA Modules-->
   <add sel="/god/products">
     <product id="otas_da_adv_schematics" ware="da_adv_schematics" owner="otas" type="factory">
       <quotas>
@@ -474,7 +475,6 @@
         <select ware="da_adv_schematics" race="otas" faction="otas"/>
       </module>
     </product>
-
     <product id="otas_da_mil_schematics" ware="da_mil_schematics" owner="otas" type="factory">
       <quotas>
         <quota galaxy="8" />
@@ -484,7 +484,6 @@
         <select ware="da_mil_schematics" race="otas" faction="otas"/>
       </module>
     </product>
-
     <product id="otas_da_laborunion_contracts" ware="da_laborunion_contracts" owner="otas" type="factory">
       <quotas>
         <quota galaxy="16" />

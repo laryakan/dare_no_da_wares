@@ -3,11 +3,9 @@
   <add sel="/modules/module[@id='prod_gen_da_adv_schematics']/category[@ware='da_adv_schematics'][@race='[argon, paranid, split, teladi]'][@faction='[argon, paranid, teladi, antigone, holyorder, trinity, buccaneers, ministry, hatikvah, alliance, scaleplate]']">
     <extension race="otas" faction="otas"/>
   </add>
-
   <add sel="/modules/module[@id='prod_gen_da_mil_schematics']/category[@ware='da_mil_schematics'][@race='[argon, paranid, split, teladi]'][@faction='[argon, paranid, teladi, antigone, holyorder, trinity, buccaneers, ministry, hatikvah, alliance, scaleplate]']">
     <extension race="otas" faction="otas"/>
   </add>  
-
   <add sel="/modules/module[@id='prod_gen_da_laborunion_contracts']/category[@ware='da_laborunion_contracts'][@race='[argon, paranid, split, teladi]'][@faction='[argon, paranid, teladi, antigone, holyorder, trinity, buccaneers, ministry, hatikvah, alliance, scaleplate]']">
     <extension race="otas" faction="otas"/>
   </add>  
