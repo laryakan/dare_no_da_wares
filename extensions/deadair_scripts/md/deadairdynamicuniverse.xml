@@ -1,12 +1,53 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <diff>
-  <remove sel="/mdscript/cues/cue/actions/set_value[@name='$DADVT.$DAGodEnable']"/>
-  <remove sel="/mdscript/cues/cue/actions/set_value[@name='$DADVT.$DAGateTrackedGates']"/>
-  <remove sel="/mdscript/cues/cue/actions/set_value[@name='$DADVT.$DAGateZoneMacros']"/>
-  <remove sel="/mdscript/cues/cue/actions/do_if[@value='faction.split?']"/>
-  <remove sel="/mdscript/cues/cue/actions/do_if[@value='faction.terran?']"/>
-  <remove sel="/mdscript/cues/cue/actions/set_value[@name='$DADVT.$DAGateDetailedDebug']"/>
-  <remove sel="/mdscript/cues/cue/actions/set_value[@name='$DADVT.$DAGateShowAllGates']"/>
-  <remove sel="/mdscript/cues/cue/actions/set_value[@name='$UpdateOnLoadGateTimer']"/>
-  <remove sel="/mdscript/cues/cue/cues/cue[@name='VerifyVariablesExist']/actions/include_actions[@ref='LibraryCheckGateVariables']"/>
+	<!--	md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction} // 
+			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'CriticalTag' == [$LocCriticalTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'CoreTag' == [$LocCoreTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'BorderTag' == [$LocBorderTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'ContestedTag' == [$LocContestedTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+			Special handling required for Eco tags
+			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'LTraderTag' == [$LocLTraderTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'MTraderTag' == [$LocMTraderTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'LMinerTag' == [$LocLMinerTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'MMinerTag' == [$LocMMinerTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'LGasMinerTag' == [$LocLGasMinerTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'MGasMinerTag' == [$LocMGasMinerTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+	-->
+		<!--XENON-->
+	<!--Critical Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag.{2}" exact="1" comment="Changes Xenon strategic patrol size to small"/>
+				<debug_text text="'MOD: DAJobsSST - RE changed faction.xenon $CriticalTag.{2} to 1: %s'.[$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag.{2}]" context="false" filter="scripts"/>
+			</do_if>
+		</do_if>
+	</add>
+	<!--Core Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag.{2}" exact="1" comment="Changes Xenon interior patrol size to small"/>
+				<debug_text text="'MOD: DAJobsSST - RE changed faction.xenon $CoreTag.{2} to 1: %s'.[$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag.{2}]" context="false" filter="scripts"/>
+			</do_if>
+		</do_if>
+	</add>
+	<!--Border Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag.{2}" exact="1" comment="Changing Xenon border patrol size to small"/>
+				<debug_text text="'MOD: DAJobsSST - RE changed faction.xenon $BorderTag.{2} to 1: %s'.[$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag.{2}]" context="false" filter="scripts"/>
+			</do_if>
+		</do_if>
+	</add>
+	<!--Contested Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag.{2}" exact="1" comment="Changing Xenon contested patrol size to small"/>
+				<debug_text text="'MOD: DAJobsSST - RE changed faction.xenon $ContestedTag.{2} to 1: %s'.[$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag.{2}]" context="false" filter="scripts"/>
+			</do_if>
+		</do_if>
+	</add>	
 </diff>

@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<diff>
-  <remove sel="/mdscript/cues/cue/cues/cue[@name='ExecuteOption_GateEnable']"/>
-  <remove sel="/mdscript/cues/cue/cues/cue[@name='ExecuteOption_GateShowAllEnable']"/>
-  <remove sel="/mdscript/cues/cue/cues/cue[@name='ExecuteOption_GateDebugEnable']"/>
-  <remove sel="/mdscript/cues/cue/cues/cue[@name='ExecuteOption_GateTriggerGate']"/>
-</diff>
