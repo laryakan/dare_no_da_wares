@@ -1,25 +1,2166 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-	<!--	md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction} // 
-			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'CriticalTag' == [$LocCriticalTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
-			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'CoreTag' == [$LocCoreTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
-			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'BorderTag' == [$LocBorderTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
-			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'ContestedTag' == [$LocContestedTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+<!--MODULE QUOTAS-->
+<!--HATIKVAH-->
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.advancedcomposites}.{2}" exact="0"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.advancedelectronics}.{2}" exact="0"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.antimattercells}.{2}" exact="12"/>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.claytronics}.{2}" exact="25"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.energycells}.{2}" exact="25"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.fieldcoils}.{2}" exact="0"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.foodrations}.{2}" exact="50"/>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.graphene}.{2}" exact="12"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.hullparts}.{2}" exact="50"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.medicalsupplies}.{2}" exact="75"/>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.microchips}.{2}" exact="0"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.missilecomponents}.{2}" exact="0"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.plasmaconductors}.{2}" exact="0"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.quantumtubes}.{2}" exact="0"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.refinedmetals}.{2}" exact="16"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.spacefuel}.{2}" exact="12"/>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.scanningarrays}.{2}" exact="0"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.shieldcomponents}.{2}" exact="0"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.siliconwafers}.{2}" exact="14"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.smartchips}.{2}" exact="0"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.turretcomponents}.{2}" exact="0"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.weaponcomponents}.{2}" exact="0"/>
+		</do_if>
+	</add>	
+
+
+<!--TERRAN-->	
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.terran}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.terran}.{ware.energycells}.{2}" exact="240"/>
+		</do_if>
+	</add>
+	
+	
+<!--PIONEERS-->	
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.pioneers}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.pioneers}.{ware.energycells}.{2}" exact="240"/>
+		</do_if>
+	</add>		
+
+
+	<!--
+		md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction} // 
+		md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'CriticalTag' == [$LocCriticalTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+		md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'CoreTag' == [$LocCoreTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+		md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'BorderTag' == [$LocBorderTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+		md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'ContestedTag' == [$LocContestedTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
 			Special handling required for Eco tags
-			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'LTraderTag' == [$LocLTraderTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
-			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'MTraderTag' == [$LocMTraderTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
-			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'LMinerTag' == [$LocLMinerTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
-			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'MMinerTag' == [$LocMMinerTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
-			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'LGasMinerTag' == [$LocLGasMinerTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
-			md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'MGasMinerTag' == [$LocMGasMinerTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
-	-->
-		<!--XENON-->
+		md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'LTraderTag' == [$LocLTraderTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+		md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'MTraderTag' == [$LocMTraderTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+		md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'LMinerTag' == [$LocLMinerTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+		md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'MMinerTag' == [$LocMMinerTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+		md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'LGasMinerTag' == [$LocLGasMinerTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+		md.$DADynamicVarTable.$DAJobsSSTJobSizeQuotas.{$LocFaction}.$+'MGasMinerTag' == [$LocMGasMinerTag,$FleetSize,$GalaxyQuota,$SectorQuota,$JobName,$PendingJobShips,$JobShipsGroup,$SectorsWithRequested]
+	-->	
+	
+	
+<!--SMART SECTOR TAGS-->	
+<!--ANTIGONE-->
+	<!--Critical Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CriticalTag.{2}" exact="3" comment="Changes Antigone strategic patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CriticalTag.{3}" exact="3" comment="Changes Antigone strategic patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CriticalTag.{4}" exact="1" comment="Changes Antigone strategic patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Core Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CoreTag.{2}" exact="1" comment="Changes Antigone interior patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CoreTag.{3}" exact="0" comment="Changes Antigone interior patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$CoreTag.{4}" exact="0" comment="Changes Antigone interior patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Border Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$BorderTag.{2}" exact="2" comment="Changing Antigone border patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$BorderTag.{3}" exact="15" comment="Changes Antigone border patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$BorderTag.{4}" exact="1" comment="Changes Antigone border patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Contested Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$ContestedTag.{2}" exact="2" comment="Changing Antigone contested patrol size"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$ContestedTag.{3}" exact="10" comment="Changes Antigone contested patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$ContestedTag.{4}" exact="1" comment="Changes Antigone contested patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LTraderTag.{3}" exact="15" comment="Changes Antigone L-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LTraderTag.{4}" exact="3" comment="Changes Antigone L-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--M-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MTraderTag.{3}" exact="15" comment="Changes Antigone M-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MTraderTag.{4}" exact="3" comment="Changes Antigone M-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LMinerTag.{3}" exact="0" comment="Changes Antigone L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LMinerTag.{4}" exact="0" comment="Changes Antigone L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MMinerTag.{3}" exact="0" comment="Changes Antigone M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MMinerTag.{4}" exact="0" comment="Changes Antigone M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LGasMinerTag.{3}" exact="0" comment="Changes Antigone L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$LGasMinerTag.{4}" exact="0" comment="Changes Antigone L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MGasMinerTag.{3}" exact="0" comment="Changes Antigone M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.antigone}.$MGasMinerTag.{4}" exact="0" comment="Changes Antigone M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	
+	
+<!--ARGON-->
+	<!--Critical Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CriticalTag.{2}" exact="3" comment="Changes argon strategic patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CriticalTag.{3}" exact="3" comment="Changes argon strategic patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CriticalTag.{4}" exact="1" comment="Changes argon strategic patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Core Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CoreTag.{2}" exact="1" comment="Changes argon interior patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CoreTag.{3}" exact="0" comment="Changes argon interior patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$CoreTag.{4}" exact="0" comment="Changes argon interior patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Border Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$BorderTag.{2}" exact="2" comment="Changing argon border patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$BorderTag.{3}" exact="15" comment="Changes argon border patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$BorderTag.{4}" exact="1" comment="Changes argon border patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Contested Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$ContestedTag.{2}" exact="2" comment="Changing argon contested patrol size"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$ContestedTag.{3}" exact="10" comment="Changes argon contested patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$ContestedTag.{4}" exact="1" comment="Changes argon contested patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LTraderTag.{3}" exact="15" comment="Changes argon L-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LTraderTag.{4}" exact="3" comment="Changes argon L-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--M-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MTraderTag.{3}" exact="15" comment="Changes argon M-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MTraderTag.{4}" exact="3" comment="Changes argon M-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LMinerTag.{3}" exact="0" comment="Changes argon L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LMinerTag.{4}" exact="0" comment="Changes argon L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MMinerTag.{3}" exact="0" comment="Changes argon M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MMinerTag.{4}" exact="0" comment="Changes argon M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LGasMinerTag.{3}" exact="0" comment="Changes argon L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$LGasMinerTag.{4}" exact="0" comment="Changes argon L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MGasMinerTag.{3}" exact="0" comment="Changes argon M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.argon}.$MGasMinerTag.{4}" exact="0" comment="Changes argon M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>
+
+	
+<!--PARANID-->
+	<!--Critical Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CriticalTag.{2}" exact="3" comment="Changes paranid strategic patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CriticalTag.{3}" exact="3" comment="Changes paranid strategic patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CriticalTag.{4}" exact="1" comment="Changes paranid strategic patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Core Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CoreTag.{2}" exact="1" comment="Changes paranid interior patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CoreTag.{3}" exact="0" comment="Changes paranid interior patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$CoreTag.{4}" exact="0" comment="Changes paranid interior patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Border Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$BorderTag.{2}" exact="2" comment="Changing paranid border patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$BorderTag.{3}" exact="15" comment="Changes paranid border patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$BorderTag.{4}" exact="1" comment="Changes paranid border patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Contested Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$ContestedTag.{2}" exact="2" comment="Changing paranid contested patrol size"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$ContestedTag.{3}" exact="10" comment="Changes paranid contested patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$ContestedTag.{4}" exact="1" comment="Changes paranid contested patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LTraderTag.{3}" exact="15" comment="Changes paranid L-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LTraderTag.{4}" exact="3" comment="Changes paranid L-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--M-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MTraderTag.{3}" exact="15" comment="Changes paranid M-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MTraderTag.{4}" exact="3" comment="Changes paranid M-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LMinerTag.{3}" exact="0" comment="Changes paranid L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LMinerTag.{4}" exact="0" comment="Changes paranid L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MMinerTag.{3}" exact="0" comment="Changes paranid M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MMinerTag.{4}" exact="0" comment="Changes paranid M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LGasMinerTag.{3}" exact="0" comment="Changes paranid L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$LGasMinerTag.{4}" exact="0" comment="Changes paranid L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MGasMinerTag.{3}" exact="0" comment="Changes paranid M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.paranid}.$MGasMinerTag.{4}" exact="0" comment="Changes paranid M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>
+
+	
+<!--HOLYORDER-->
+	<!--Critical Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CriticalTag.{2}" exact="3" comment="Changes holyorder strategic patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CriticalTag.{3}" exact="3" comment="Changes holyorder strategic patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CriticalTag.{4}" exact="1" comment="Changes holyorder strategic patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Core Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CoreTag.{2}" exact="1" comment="Changes holyorder interior patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CoreTag.{3}" exact="0" comment="Changes holyorder interior patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$CoreTag.{4}" exact="0" comment="Changes holyorder interior patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Border Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$BorderTag.{2}" exact="2" comment="Changing holyorder border patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$BorderTag.{3}" exact="15" comment="Changes holyorder border patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$BorderTag.{4}" exact="1" comment="Changes holyorder border patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Contested Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$ContestedTag.{2}" exact="2" comment="Changing holyorder contested patrol size"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$ContestedTag.{3}" exact="10" comment="Changes holyorder contested patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$ContestedTag.{4}" exact="1" comment="Changes holyorder contested patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LTraderTag.{3}" exact="15" comment="Changes holyorder L-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LTraderTag.{4}" exact="3" comment="Changes holyorder L-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--M-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MTraderTag.{3}" exact="15" comment="Changes holyorder M-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MTraderTag.{4}" exact="3" comment="Changes holyorder M-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LMinerTag.{3}" exact="0" comment="Changes holyorder L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LMinerTag.{4}" exact="0" comment="Changes holyorder L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MMinerTag.{3}" exact="0" comment="Changes holyorder M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MMinerTag.{4}" exact="0" comment="Changes holyorder M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LGasMinerTag.{3}" exact="0" comment="Changes holyorder L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$LGasMinerTag.{4}" exact="0" comment="Changes holyorder L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MGasMinerTag.{3}" exact="0" comment="Changes holyorder M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.holyorder}.$MGasMinerTag.{4}" exact="0" comment="Changes holyorder M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>
+	
+	
+<!--TRINITY-->
+	<!--Critical Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CriticalTag.{2}" exact="3" comment="Changes trinity strategic patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CriticalTag.{3}" exact="5" comment="Changes trinity strategic patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CriticalTag.{4}" exact="1" comment="Changes trinity strategic patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Core Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CoreTag.{2}" exact="1" comment="Changes trinity interior patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CoreTag.{3}" exact="0" comment="Changes trinity interior patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$CoreTag.{4}" exact="0" comment="Changes trinity interior patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Border Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$BorderTag.{2}" exact="2" comment="Changing trinity border patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$BorderTag.{3}" exact="25" comment="Changes trinity border patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$BorderTag.{4}" exact="1" comment="Changes trinity border patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Contested Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$ContestedTag.{2}" exact="2" comment="Changing trinity contested patrol size"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$ContestedTag.{3}" exact="20" comment="Changes trinity contested patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$ContestedTag.{4}" exact="1" comment="Changes trinity contested patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LTraderTag.{3}" exact="30" comment="Changes trinity L-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LTraderTag.{4}" exact="3" comment="Changes trinity L-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--M-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MTraderTag.{3}" exact="30" comment="Changes trinity M-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MTraderTag.{4}" exact="3" comment="Changes trinity M-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LMinerTag.{3}" exact="0" comment="Changes trinity L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LMinerTag.{4}" exact="0" comment="Changes trinity L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MMinerTag.{3}" exact="0" comment="Changes trinity M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MMinerTag.{4}" exact="0" comment="Changes trinity M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LGasMinerTag.{3}" exact="0" comment="Changes trinity L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$LGasMinerTag.{4}" exact="0" comment="Changes trinity L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MGasMinerTag.{3}" exact="0" comment="Changes trinity M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.trinity}.$MGasMinerTag.{4}" exact="0" comment="Changes trinity M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>
+	
+	
+<!--TELADI-->
+	<!--Critical Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CriticalTag.{2}" exact="2" comment="Changes teladi strategic patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CriticalTag.{3}" exact="2" comment="Changes teladi strategic patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CriticalTag.{4}" exact="1" comment="Changes teladi strategic patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Core Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CoreTag.{2}" exact="1" comment="Changes teladi interior patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CoreTag.{3}" exact="0" comment="Changes teladi interior patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$CoreTag.{4}" exact="0" comment="Changes teladi interior patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Border Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$BorderTag.{2}" exact="1" comment="Changing teladi border patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$BorderTag.{3}" exact="10" comment="Changes teladi border patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$BorderTag.{4}" exact="1" comment="Changes teladi border patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Contested Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$ContestedTag.{2}" exact="1" comment="Changing teladi contested patrol size"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$ContestedTag.{3}" exact="10" comment="Changes teladi contested patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$ContestedTag.{4}" exact="1" comment="Changes teladi contested patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LTraderTag.{3}" exact="30" comment="Changes teladi L-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LTraderTag.{4}" exact="3" comment="Changes teladi L-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--M-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MTraderTag.{3}" exact="30" comment="Changes teladi M-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MTraderTag.{4}" exact="3" comment="Changes teladi M-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LMinerTag.{3}" exact="0" comment="Changes teladi L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LMinerTag.{4}" exact="0" comment="Changes teladi L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MMinerTag.{3}" exact="0" comment="Changes teladi M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MMinerTag.{4}" exact="0" comment="Changes teladi M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LGasMinerTag.{3}" exact="0" comment="Changes teladi L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$LGasMinerTag.{4}" exact="0" comment="Changes teladi L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MGasMinerTag.{3}" exact="0" comment="Changes teladi M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.teladi}.$MGasMinerTag.{4}" exact="0" comment="Changes teladi M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	
+	
+<!--SPLIT-->
+	<!--Critical Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CriticalTag.{2}" exact="3" comment="Changes split strategic patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CriticalTag.{3}" exact="3" comment="Changes split strategic patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CriticalTag.{4}" exact="1" comment="Changes split strategic patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Core Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CoreTag.{2}" exact="1" comment="Changes split interior patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CoreTag.{3}" exact="0" comment="Changes split interior patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$CoreTag.{4}" exact="0" comment="Changes split interior patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Border Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$BorderTag.{2}" exact="2" comment="Changing split border patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$BorderTag.{3}" exact="15" comment="Changes split border patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$BorderTag.{4}" exact="1" comment="Changes split border patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Contested Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$ContestedTag.{2}" exact="2" comment="Changing split contested patrol size"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$ContestedTag.{3}" exact="10" comment="Changes split contested patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$ContestedTag.{4}" exact="1" comment="Changes split contested patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LTraderTag.{3}" exact="15" comment="Changes split L-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LTraderTag.{4}" exact="3" comment="Changes split L-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--M-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MTraderTag.{3}" exact="15" comment="Changes split M-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MTraderTag.{4}" exact="3" comment="Changes split M-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LMinerTag.{3}" exact="0" comment="Changes split L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LMinerTag.{4}" exact="0" comment="Changes split L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MMinerTag.{3}" exact="0" comment="Changes split M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MMinerTag.{4}" exact="0" comment="Changes split M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LGasMinerTag.{3}" exact="0" comment="Changes split L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$LGasMinerTag.{4}" exact="0" comment="Changes split L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MGasMinerTag.{3}" exact="0" comment="Changes split M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.split}.$MGasMinerTag.{4}" exact="0" comment="Changes split M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>
+
+
+<!--FREE FAMILIES-->
+	<!--L-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LTraderTag.{3}" exact="15" comment="Changes freesplit L-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LTraderTag.{4}" exact="3" comment="Changes freesplit L-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--M-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MTraderTag.{3}" exact="15" comment="Changes freesplit M-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MTraderTag.{4}" exact="3" comment="Changes freesplit M-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LMinerTag.{3}" exact="0" comment="Changes freesplit L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LMinerTag.{4}" exact="0" comment="Changes freesplit L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MMinerTag.{3}" exact="0" comment="Changes freesplit M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MMinerTag.{4}" exact="0" comment="Changes freesplit M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LGasMinerTag.{3}" exact="0" comment="Changes freesplit L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$LGasMinerTag.{4}" exact="0" comment="Changes freesplit L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MGasMinerTag.{3}" exact="0" comment="Changes freesplit M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.freesplit}.$MGasMinerTag.{4}" exact="0" comment="Changes freesplit M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>
+	
+	
+<!--COURT-->
+	<!--Critical Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CriticalTag.{2}" exact="3" comment="Changes court strategic patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CriticalTag.{3}" exact="3" comment="Changes court strategic patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CriticalTag.{4}" exact="1" comment="Changes court strategic patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Core Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CoreTag.{2}" exact="1" comment="Changes court interior patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CoreTag.{3}" exact="0" comment="Changes court interior patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$CoreTag.{4}" exact="0" comment="Changes court interior patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Border Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$BorderTag.{2}" exact="2" comment="Changing court border patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$BorderTag.{3}" exact="15" comment="Changes court border patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$BorderTag.{4}" exact="1" comment="Changes court border patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Contested Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$ContestedTag.{2}" exact="2" comment="Changing court contested patrol size"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$ContestedTag.{3}" exact="10" comment="Changes court contested patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.court}.$ContestedTag.{4}" exact="1" comment="Changes court contested patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	
+	
+<!--TERRAN-->
+	<!--Critical Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CriticalTag.{2}" exact="3" comment="Changes terran strategic patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CriticalTag.{3}" exact="3" comment="Changes terran strategic patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CriticalTag.{4}" exact="1" comment="Changes terran strategic patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Core Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CoreTag.{2}" exact="1" comment="Changes terran interior patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CoreTag.{3}" exact="0" comment="Changes terran interior patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$CoreTag.{4}" exact="0" comment="Changes terran interior patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Border Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$BorderTag.{2}" exact="2" comment="Changing terran border patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$BorderTag.{3}" exact="15" comment="Changes terran border patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$BorderTag.{4}" exact="1" comment="Changes terran border patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Contested Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$ContestedTag.{2}" exact="2" comment="Changing terran contested patrol size"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$ContestedTag.{3}" exact="10" comment="Changes terran contested patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$ContestedTag.{4}" exact="1" comment="Changes terran contested patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LTraderTag.{3}" exact="30" comment="Changes terran L-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LTraderTag.{4}" exact="3" comment="Changes terran L-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--M-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MTraderTag.{3}" exact="30" comment="Changes terran L-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>				
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MTraderTag.{4}" exact="3" comment="Changes terran M-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LMinerTag.{3}" exact="30" comment="Changes terran L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LMinerTag.{4}" exact="3" comment="Changes terran L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MMinerTag.{3}" exact="60" comment="Changes terran M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MMinerTag.{4}" exact="10" comment="Changes terran M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LGasMinerTag.{3}" exact="30" comment="Changes terran L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$LGasMinerTag.{4}" exact="3" comment="Changes terran L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MGasMinerTag.{3}" exact="60" comment="Changes terran M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.terran}.$MGasMinerTag.{4}" exact="10" comment="Changes terran M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>
+
+	
+<!--PIONEERS-->
+	<!--Critical Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CriticalTag.{2}" exact="2" comment="Changes pioneers strategic patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CriticalTag.{3}" exact="2" comment="Changes pioneers strategic patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CriticalTag.{4}" exact="1" comment="Changes pioneers strategic patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Core Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CoreTag.{2}" exact="0" comment="Changes pioneers interior patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CoreTag.{3}" exact="0" comment="Changes pioneers interior patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$CoreTag.{4}" exact="0" comment="Changes pioneers interior patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Border Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$BorderTag.{2}" exact="1" comment="Changing pioneers border patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$BorderTag.{3}" exact="10" comment="Changes pioneers border patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$BorderTag.{4}" exact="1" comment="Changes pioneers border patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Contested Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$ContestedTag.{2}" exact="1" comment="Changing pioneers contested patrol size"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$ContestedTag.{3}" exact="10" comment="Changes pioneers contested patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$ContestedTag.{4}" exact="1" comment="Changes pioneers contested patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LTraderTag.{3}" exact="30" comment="Changes pioneers L-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LTraderTag.{4}" exact="3" comment="Changes pioneers L-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--M-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MTraderTag.{3}" exact="30" comment="Changes pioneers M-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MTraderTag.{4}" exact="3" comment="Changes pioneers M-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LMinerTag.{3}" exact="30" comment="Changes pioneers L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LMinerTag.{4}" exact="3" comment="Changes pioneers L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MMinerTag.{3}" exact="60" comment="Changes pioneers M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MMinerTag.{4}" exact="10" comment="Changes pioneers M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LGasMinerTag.{3}" exact="30" comment="Changes pioneers L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$LGasMinerTag.{4}" exact="3" comment="Changes pioneers L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MGasMinerTag.{3}" exact="60" comment="Changes pioneers M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.pioneers}.$MGasMinerTag.{4}" exact="10" comment="Changes pioneers M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	
+	
+<!--BORON-->
+	<!--Critical Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CriticalTag.{2}" exact="3" comment="Changes boron strategic patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CriticalTag.{3}" exact="3" comment="Changes boron strategic patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CriticalTag.{4}" exact="1" comment="Changes boron strategic patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Core Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CoreTag.{2}" exact="1" comment="Changes boron interior patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CoreTag.{3}" exact="0" comment="Changes boron interior patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$CoreTag.{4}" exact="0" comment="Changes boron interior patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Border Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$BorderTag.{2}" exact="2" comment="Changing boron border patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$BorderTag.{3}" exact="15" comment="Changes boron border patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$BorderTag.{4}" exact="1" comment="Changes boron border patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--Contested Sector-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$ContestedTag.{2}" exact="2" comment="Changing boron contested patrol size"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$ContestedTag.{3}" exact="10" comment="Changes boron contested patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>			
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$ContestedTag.{4}" exact="1" comment="Changes boron contested patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LTraderTag.{3}" exact="15" comment="Changes boron L-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LTraderTag.{4}" exact="3" comment="Changes boron L-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--M-Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MTraderTag.{3}" exact="15" comment="Changes boron M-trader galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MTraderTag.{4}" exact="3" comment="Changes boron M-trader sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LMinerTag.{3}" exact="0" comment="Changes boron L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LMinerTag.{4}" exact="0" comment="Changes boron L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MMinerTag.{3}" exact="0" comment="Changes boron M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MMinerTag.{4}" exact="0" comment="Changes boron M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--L-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LGasMinerTag.{3}" exact="0" comment="Changes boron L-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$LGasMinerTag.{4}" exact="0" comment="Changes boron L-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<!--M-Gas-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MGasMinerTag.{3}" exact="0" comment="Changes boron M-miner galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MGasMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MGasMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.boron}.$MGasMinerTag.{4}" exact="0" comment="Changes boron M-miner sector quota"/>
+			</do_if>
+		</do_if>
+	</add>
+	
+	
+<!--XENON-->
 	<!--Critical Sector-->
 	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
 		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
 			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag.count">
-				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag.{2}" exact="1" comment="Changes Xenon strategic patrol size to small"/>
-				<debug_text text="'MOD: DAJobsSST - RE changed faction.xenon $CriticalTag.{2} to 1: %s'.[$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag.{2}]" context="false" filter="scripts"/>
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag.{2}" exact="2" comment="Changes Xenon Critical patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag.{3}" exact="10" comment="Changes Xenon Critical patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CriticalTag.{4}" exact="1" comment="Changes Xenon Critical patrol sector quota"/>
 			</do_if>
 		</do_if>
 	</add>
@@ -27,26 +2168,81 @@
 	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
 		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
 			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag.count">
-				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag.{2}" exact="1" comment="Changes Xenon interior patrol size to small"/>
-				<debug_text text="'MOD: DAJobsSST - RE changed faction.xenon $CoreTag.{2} to 1: %s'.[$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag.{2}]" context="false" filter="scripts"/>
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag.{2}" exact="1" comment="Changes Xenon Core patrol size"/>
 			</do_if>
 		</do_if>
 	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag.{3}" exact="0" comment="Changes Xenon Core patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$CoreTag.{4}" exact="0" comment="Changes Xenon Core patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
 	<!--Border Sector-->
 	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
 		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
 			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag.count">
-				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag.{2}" exact="1" comment="Changing Xenon border patrol size to small"/>
-				<debug_text text="'MOD: DAJobsSST - RE changed faction.xenon $BorderTag.{2} to 1: %s'.[$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag.{2}]" context="false" filter="scripts"/>
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag.{2}" exact="1" comment="Changing Xenon border patrol size"/>
 			</do_if>
 		</do_if>
 	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag.{3}" exact="0" comment="Changes Xenon Border patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$BorderTag.{4}" exact="0" comment="Changes Xenon Border patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
 	<!--Contested Sector-->
 	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
 		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
 			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag.count">
-				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag.{2}" exact="1" comment="Changing Xenon contested patrol size to small"/>
-				<debug_text text="'MOD: DAJobsSST - RE changed faction.xenon $ContestedTag.{2} to 1: %s'.[$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag.{2}]" context="false" filter="scripts"/>
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag.{2}" exact="1" comment="Changing Xenon contested patrol size"/>
+			</do_if>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag.{3}" exact="10" comment="Changes Xenon Contested patrol galaxy quota"/>
+			</do_if>
+		</do_if>
+	</add>		
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$ContestedTag.{4}" exact="1" comment="Changes Xenon Contested patrol sector quota"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--M Trader-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$MTraderTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$MTraderTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$MTraderTag.{3}" exact="0" comment="Reduce Xenon M-Traders"/>
+			</do_if>
+		</do_if>
+	</add>	
+	<!--M Miner-->
+	<add sel="//library[@name='LibraryJobsSSTOverrideDefault']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}?">
+			<do_if value="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$MMinerTag? and $DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$MMinerTag.count">
+				<set_value name="$DADVT.$DAJobsSSTJobSizeQuotas.{faction.xenon}.$MMinerTag.{3}" exact="0" comment="Reduce Xenon M-Miners"/>
 			</do_if>
 		</do_if>
 	</add>	

@@ -258,7 +258,6 @@
     </loadout>
   </add>
   <replace sel="/god/stations/station[@id='tel_processing'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
-  <replace sel="/god/stations/station[@id='xen_defence_cluster_16_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
   <replace sel="/god/stations/station[@id='xen_defence_cluster_25_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
   <replace sel="/god/stations/station[@id='xen_defence_cluster_25_sector001'][@type='defence']/quotas/quota/@zone">2</replace>
   <replace sel="/god/stations/station[@id='xen_defence_cluster_32_sector001'][@type='defence']/quotas/quota/@galaxy">2</replace>
@@ -431,7 +430,207 @@
   <replace sel="/god/stations/station[@id='boron_defence_608_001'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
   <replace sel="/god/stations/station[@id='boron_defence_609_001'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace>
   <replace sel="/god/stations/station[@id='boron_equipment_609_001'][@type='factory']/station/loadout/level[@exact='0.75']/@exact">1.0</replace> 
+  
 
+	<!--ANTIGONE-->  
+  <replace sel="/god/products/product[@id='ant_claytronics'][@type='factory']/quotas/quota/@galaxy">9</replace>  
+  
+  
+	<!--ARGON-->
+  <replace sel="/god/products/product[@id='arg_claytronics'][@type='factory']/quotas/quota/@galaxy">12</replace>  		
+
+
+	<!--HOLY ORDER-->
+  <replace sel="/god/products/product[@id='hol_claytronics'][@type='factory']/quotas/quota/@galaxy">12</replace> 	
+
+  <add sel="/god/products/product[@id='hol_advancedcomposites']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_advancedelectronics']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_antimattercells']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_antimatterconverters']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_claytronics']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_dronecomponents']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_energycells']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_engineparts']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_fieldcoils']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_graphene']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_hullparts']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_majasnails']/location" type="@excludedtags">splitdlc</add>   
+  <add sel="/god/products/product[@id='hol_medicalsupplies']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_microchips']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_missilecomponents']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_plasmaconductors']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_quantumtubes']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_refinedmetals']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_scanningarrays']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_shieldcomponents']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_siliconwafers']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_smartchips']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_sojabeans']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_sojahusk']/location" type="@excludedtags">splitdlc</add>   
+  <add sel="/god/products/product[@id='hol_spice']/location" type="@excludedtags">splitdlc</add>  
+  <add sel="/god/products/product[@id='hol_superfluidcoolant']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_turretcomponents']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_water']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='hol_weaponcomponents']/location" type="@excludedtags">splitdlc</add>
+  
+	
+	<!--PARANID-->
+  <replace sel="/god/products/product[@id='par_claytronics'][@type='factory']/quotas/quota/@galaxy">12</replace> 	
+
+  <add sel="/god/products/product[@id='par_advancedcomposites']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_advancedelectronics']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_antimattercells']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_antimatterconverters']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_claytronics']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_dronecomponents']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_energycells']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_engineparts']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_fieldcoils']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_graphene']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_hullparts']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_majasnails']/location" type="@excludedtags">splitdlc</add>   
+  <add sel="/god/products/product[@id='par_medicalsupplies']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_microchips']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_missilecomponents']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_plasmaconductors']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_quantumtubes']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_refinedmetals']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_scanningarrays']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_shieldcomponents']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_siliconwafers']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_smartchips']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_sojabeans']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_sojahusk']/location" type="@excludedtags">splitdlc</add>   
+  <add sel="/god/products/product[@id='par_spice']/location" type="@excludedtags">splitdlc</add>  
+  <add sel="/god/products/product[@id='par_superfluidcoolant']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_turretcomponents']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_water']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='par_weaponcomponents']/location" type="@excludedtags">splitdlc</add>
+   
+ 
+  
+	<!--TELADI-->
+  <replace sel="/god/products/product[@id='tel_claytronics'][@type='factory']/quotas/quota/@galaxy">22</replace>  	
+
+  <add sel="/god/products/product[@id='tel_advancedcomposites']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_advancedelectronics']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_antimattercells']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_antimatterconverters']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_claytronics']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_dronecomponents']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_energycells']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_engineparts']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_fieldcoils']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_graphene']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_hullparts']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_medicalsupplies']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_microchips']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_missilecomponents']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_nostropoil']/location" type="@excludedtags">splitdlc</add>  
+  <add sel="/god/products/product[@id='tel_plasmaconductors']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_quantumtubes']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_scanningarrays']/location" type="@excludedtags">splitdlc</add> 
+  <add sel="/god/products/product[@id='tel_shieldcomponents']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_siliconwafers']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_smartchips']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_spaceweed']/location" type="@excludedtags">splitdlc</add>  
+  <add sel="/god/products/product[@id='tel_spice']/location" type="@excludedtags">splitdlc</add>  
+  <add sel="/god/products/product[@id='tel_sunriseflowers']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_superfluidcoolant']/location" type="@excludedtags">splitdlc</add>  
+  <add sel="/god/products/product[@id='tel_swampplant']/location" type="@excludedtags">splitdlc</add>    
+  <add sel="/god/products/product[@id='tel_teladianium']/location" type="@excludedtags">splitdlc</add>  
+  <add sel="/god/products/product[@id='tel_turretcomponents']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_water']/location" type="@excludedtags">splitdlc</add>
+  <add sel="/god/products/product[@id='tel_weaponcomponents']/location" type="@excludedtags">splitdlc</add>
+
+  
+	<!--SPLIT-->
+  <replace sel="/god/products/product[@id='spl_claytronics'][@type='factory']/quotas/quota/@galaxy">10</replace>
+
+  <add sel="/god/products/product[@id='spl_advancedcomposites']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_advancedelectronics']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_antimattercells']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_antimatterconverters']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_cheltmeat']/location" type="@excludedtags">splitcolony</add>  
+  <add sel="/god/products/product[@id='spl_claytronics']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_dronecomponents']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_energycells']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_engineparts']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_fieldcoils']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_graphene']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_hullparts']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_medicalsupplies']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_microchips']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_missilecomponents']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_plasmaconductors']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_quantumtubes']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_refinedmetals']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_scanningarrays']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_scruffinfruits']/location" type="@excludedtags">splitcolony</add>  
+  <add sel="/god/products/product[@id='spl_shieldcomponents']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_siliconwafers']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_smartchips']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_spice']/location" type="@excludedtags">splitcolony</add>  
+  <add sel="/god/products/product[@id='spl_superfluidcoolant']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_turretcomponents']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_water']/location" type="@excludedtags">splitcolony</add>
+  <add sel="/god/products/product[@id='spl_weaponcomponents']/location" type="@excludedtags">splitcolony</add>
+  
+
+  
+	<!--FREE FAMILIES-->
+  <replace sel="/god/products/product[@id='frf_claytronics'][@type='factory']/quotas/quota/@galaxy">10</replace>
+  
+
+	<!--TERRAN-->
+  <replace sel="/god/products/product[@id='ter_energycells'][@type='factory']/quotas/quota/@galaxy">40</replace> <!--Cut by 24 due to the Mercury Solar Power Plants-->
+  <replace sel="/god/products/product[@id='ter_energycells'][@type='factory']/location/sunlight/@min">0.5</replace> 
+  <replace sel="/god/products/product[@id='ter_computronicsubstrate'][@type='factory']/quotas/quota/@galaxy">16</replace>  
+  
+  
+	<!--PIONEERS-->
+  <add sel="/god/products/product[@id='pio_metallicmicrolattice'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='pioneers']" type="@matchextension">false</add>
+  <add sel="/god/products/product[@id='pio_computronicsubstrate'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='pioneers']" type="@matchextension">false</add>
+  <add sel="/god/products/product[@id='pio_siliconcarbide'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='pioneers']" type="@matchextension">false</add>
+  <add sel="/god/products/product[@id='pio_energycells'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='pioneers']" type="@matchextension">false</add>
+  <add sel="/god/products/product[@id='pio_medicalsupplies'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='pioneers']" type="@matchextension">false</add>
+  <add sel="/god/products/product[@id='pio_proteinpaste'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='pioneers']" type="@matchextension">false</add>
+  <add sel="/god/products/product[@id='pio_terranmre'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='pioneers']" type="@matchextension">false</add>
+  <add sel="/god/products/product[@id='pio_stimulants'][@type='factory']/location[@macro='xu_ep2_universe_macro'][@faction='pioneers']" type="@matchextension">false</add>
+
+  
+	<!--BORON-->
+  <replace sel="/god/products/product[@id='bor_claytronics'][@type='factory']/quotas/quota/@galaxy">10</replace>  
+
+  <add sel="/god/products/product[@id='bor_advancedcomposites']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_advancedelectronics']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_antimattercells']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_antimatterconverters']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_claytronics']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_dronecomponents']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_energycells']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_engineparts']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_fieldcoils']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_bofu']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_graphene']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_hullparts']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_bogas']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_medicalsupplies']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_microchips']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_missilecomponents']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_plasmaconductors']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_quantumtubes']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_refinedmetals']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_scanningarrays']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_shieldcomponents']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_siliconwafers']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_smartchips']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_superfluidcoolant']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_turretcomponents']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_water']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_weaponcomponents']/location" type="@excludedtags">boroncolony</add>
+  <add sel="/god/products/product[@id='bor_plankton']/location" type="@excludedtags">boroncolony</add>
+  
   
 	<!--SPLIT DLC-->
   <remove sel="/god/stations/station[@id='wharf_split_02']/@startactive"/>
@@ -461,14 +660,29 @@
   <remove sel="/god/products/product[@id='tel_dlc_split_advancedelectronics']/@startactive"/>
   <remove sel="/god/products/product[@id='tel_dlc_split_weaponcomponents']/@startactive"/>
   <remove sel="/god/products/product[@id='tel_dlc_split_teladianium']/@startactive"/>
-  <remove sel="/god/products/product[@id='tel_dlc_split_siliconwafers']/@startactive"/> 
+  <remove sel="/god/products/product[@id='tel_dlc_split_siliconwafers']/@startactive"/>  
 
-  
-	<!--OTAS DA Modules-->
+
+  <add sel="//god/stations">
+<!--Mercury (Cluster 106)-->	
+    <station id="ter_mercury_spp" race="terran" owner="terran" type="factory">	<!--Added to make sure that Terrans start with good EC production, God engine seems to be skipping Mercury-->
+      <quotas>
+        <quota galaxy="2" sector="2" zone="1" />
+      </quotas>
+      <location class="sector" macro="cluster_106_sector001_macro" matchextension="false"/>
+      <station constructionplan="ter_mercury_spp">
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+      </station>
+    </station>	  
+  </add>    
+	<!--New DA Modules-->
   <add sel="/god/products">
+	<!--OTAS-->
     <product id="otas_da_adv_schematics" ware="da_adv_schematics" owner="otas" type="factory">
       <quotas>
-        <quota galaxy="4" />
+        <quota galaxy="6" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[otas]" relation="self" comparison="exact" matchextension="false"/>
       <module>
@@ -477,7 +691,7 @@
     </product>
     <product id="otas_da_mil_schematics" ware="da_mil_schematics" owner="otas" type="factory">
       <quotas>
-        <quota galaxy="8" />
+        <quota galaxy="6" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[otas]" relation="self" comparison="exact" matchextension="false"/>
       <module>
@@ -486,12 +700,12 @@
     </product>
     <product id="otas_da_laborunion_contracts" ware="da_laborunion_contracts" owner="otas" type="factory">
       <quotas>
-        <quota galaxy="16" />
+        <quota galaxy="4" />
       </quotas>
       <location class="galaxy" macro="xu_ep2_universe_macro" faction="[otas]" relation="self" comparison="exact" matchextension="false"/>
       <module>
         <select ware="da_laborunion_contracts" race="otas" faction="otas"/>
       </module>
-    </product>
+    </product>	
   </add>  
 </diff>

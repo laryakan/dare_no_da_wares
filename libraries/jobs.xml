@@ -33,10 +33,10 @@
 		<!--Construction Ship Quotas-->
 <!--Argon-->
   <replace sel="//jobs/job[@id='argon_construction_vessel_xl']/quota[@galaxy='15']">
-	<quota galaxy="17"/>
+	<quota galaxy="8"/>
   </replace>  
   <replace sel="//jobs/job[@id='argon_construction_vessel_xl_focused']/quota[@galaxy='5']">
-	<quota galaxy="8"/>
+	<quota galaxy="17"/>
   </replace> 
   <replace sel="/jobs/job[@id='argon_construction_vessel_xl_playeronly'][@name='{20204,5101}']/orders/order[@order='FindBuildTasks'][@default='true']/param[@name='playeronly'][@value='false']/@value">true</replace>  
   <replace sel="//jobs/job[@id='argon_construction_vessel_xl_playeronly']/quota[@galaxy='5']">
@@ -44,10 +44,10 @@
   </replace>    
 <!--Antigone-->
   <replace sel="//jobs/job[@id='antigone_construction_vessel_xl']/quota[@galaxy='5']">
-	<quota galaxy="7"/>
+	<quota galaxy="6"/>
   </replace>  
   <replace sel="//jobs/job[@id='antigone_construction_vessel_xl_focused']/quota[@galaxy='3']">
-	<quota galaxy="5"/>
+	<quota galaxy="7"/>
   </replace> 
   <replace sel="/jobs/job[@id='antigone_construction_vessel_xl_playeronly'][@name='{20204,5101}']/orders/order[@order='FindBuildTasks'][@default='true']/param[@name='playeronly'][@value='false']/@value">true</replace>  
   <replace sel="//jobs/job[@id='antigone_construction_vessel_xl_playeronly']/quota[@galaxy='3']">
@@ -55,10 +55,10 @@
   </replace>    
 <!--Paranid-->
   <replace sel="//jobs/job[@id='paranid_construction_vessel_xl']/quota[@galaxy='9']">
-	<quota galaxy="12"/>
+	<quota galaxy="5"/>
   </replace>  
   <replace sel="//jobs/job[@id='paranid_construction_vessel_xl_focused']/quota[@galaxy='3']">
-	<quota galaxy="5"/>
+	<quota galaxy="12"/>
   </replace> 
   <replace sel="/jobs/job[@id='paranid_construction_vessel_xl_playeronly'][@name='{20204,5101}']/orders/order[@order='FindBuildTasks'][@default='true']/param[@name='playeronly'][@value='false']/@value">true</replace>  
   <replace sel="//jobs/job[@id='paranid_construction_vessel_xl_playeronly']/quota[@galaxy='3']">
@@ -66,10 +66,10 @@
   </replace>    
  <!--Holy Order-->
   <replace sel="//jobs/job[@id='holyorder_construction_vessel_xl']/quota[@galaxy='6']">
-	<quota galaxy="12"/>
+	<quota galaxy="5"/>
   </replace>  
   <replace sel="//jobs/job[@id='holyorder_construction_vessel_xl_focused']/quota[@galaxy='3']">
-	<quota galaxy="5"/>
+	<quota galaxy="12"/>
   </replace> 
   <replace sel="/jobs/job[@id='holyorder_construction_vessel_xl_playeronly'][@name='{20204,5101}']/orders/order[@order='FindBuildTasks'][@default='true']/param[@name='playeronly'][@value='false']/@value">true</replace>  
   <replace sel="//jobs/job[@id='holyorder_construction_vessel_xl_playeronly']/quota[@galaxy='3']">
@@ -77,10 +77,10 @@
   </replace>    
 <!--Trinity-->
   <replace sel="//jobs/job[@id='trinity_construction_vessel_xl']/quota[@galaxy='15']">
-	<quota galaxy="17"/>
+	<quota galaxy="7"/>
   </replace>  
   <replace sel="//jobs/job[@id='trinity_construction_vessel_xl_focused']/quota[@galaxy='5']">
-	<quota galaxy="7"/>
+	<quota galaxy="17"/>
   </replace>    
   <replace sel="/jobs/job[@id='trinity_construction_vessel_xl_playeronly'][@name='{20204,5101}']/orders/order[@order='FindBuildTasks'][@default='true']/param[@name='playeronly'][@value='false']/@value">true</replace>  
   <replace sel="//jobs/job[@id='trinity_construction_vessel_xl_playeronly']/quota[@galaxy='5']">
@@ -99,10 +99,10 @@
   </replace>    
 <!--Ministry-->
   <replace sel="//jobs/job[@id='ministry_construction_vessel_xl']/quota[@galaxy='6']">
-	<quota galaxy="7"/>
+	<quota galaxy="9"/>
   </replace>  
   <replace sel="//jobs/job[@id='ministry_construction_vessel_xl_focused']/quota[@galaxy='2']">
-	<quota galaxy="3"/>
+	<quota galaxy="1"/>
   </replace>   
   <replace sel="/jobs/job[@id='ministry_construction_vessel_xl_playeronly'][@name='{20204,5101}']/orders/order[@order='FindBuildTasks'][@default='true']/param[@name='playeronly'][@value='false']/@value">true</replace>  
   <replace sel="//jobs/job[@id='ministry_construction_vessel_xl_playeronly']/quota[@galaxy='3']">
@@ -110,10 +110,10 @@
   </replace>  
 <!--Zyarth-->
   <replace sel="//jobs/job[@id='zyarth_construction_vessel_xl']/quota[@galaxy='10']">
-	<quota galaxy="13"/>
+	<quota galaxy="7"/>
   </replace>  
   <replace sel="//jobs/job[@id='zyarth_construction_vessel_xl_focused']/quota[@galaxy='5']">
-	<quota galaxy="7"/>
+	<quota galaxy="13"/>
   </replace>   
   <replace sel="/jobs/job[@id='zyarth_construction_vessel_xl_playeronly'][@name='{20204,5101}']/orders/order[@order='FindBuildTasks'][@default='true']/param[@name='playeronly'][@value='false']/@value">true</replace>  
   <replace sel="//jobs/job[@id='zyarth_construction_vessel_xl_playeronly']/quota[@galaxy='5']">
@@ -121,10 +121,10 @@
   </replace> 
 <!--Free Families-->
   <replace sel="//jobs/job[@id='freesplit_construction_vessel_xl']/quota[@galaxy='10']">
-	<quota galaxy="13"/>
+	<quota galaxy="7"/>
   </replace>  
   <replace sel="//jobs/job[@id='freesplit_construction_vessel_xl_focused']/quota[@galaxy='5']">
-	<quota galaxy="7"/>
+	<quota galaxy="13"/>
   </replace>   
   <replace sel="/jobs/job[@id='freesplit_construction_vessel_xl_playeronly'][@name='{20204,5101}']/orders/order[@order='FindBuildTasks'][@default='true']/param[@name='playeronly'][@value='false']/@value">true</replace>  
   <replace sel="//jobs/job[@id='freesplit_construction_vessel_xl_playeronly']/quota[@galaxy='5']">
@@ -132,10 +132,10 @@
   </replace>
 <!--Terran-->
   <replace sel="//jobs/job[@id='terran_construction_vessel_xl']/quota[@galaxy='10']">
-	<quota galaxy="15"/>
+	<quota galaxy="5"/>
   </replace>  
   <replace sel="//jobs/job[@id='terran_construction_vessel_xl_focused']/quota[@galaxy='3']">
-	<quota galaxy="5"/>
+	<quota galaxy="15"/>
   </replace>   
   <replace sel="/jobs/job[@id='terran_construction_vessel_xl_playeronly'][@name='{20204,5101}']/orders/order[@order='FindBuildTasks'][@default='true']/param[@name='playeronly'][@value='false']/@value">true</replace>  
   <replace sel="//jobs/job[@id='terran_construction_vessel_xl_playeronly']/quota[@galaxy='3']">
@@ -154,11 +154,11 @@
   </replace>  
 <!--Boron-->
   <replace sel="//jobs/job[@id='boron_construction_vessel_xl']/quota[@galaxy='4']">
-	<quota galaxy="8"/>
+	<quota galaxy="3"/>
   </replace>  
   <replace sel="//jobs/job[@id='boron_construction_vessel_xl_border_only']/quota[@galaxy='1']">
-	<quota galaxy="2"/>
+	<quota galaxy="7"/>
   </replace>   
   <replace sel="/jobs/job[@id='boron_construction_vessel_xl_playeronly'][@name='{20204,5101}']/orders/order[@order='FindBuildTasks'][@default='true']/param[@name='playeronly'][@value='false']/@value">true</replace>  
-	<!--boron_construction_vessel_xl_playeronly - no quota change-->   
+	<!--boron_construction_vessel_xl_playeronly - no quota change-->    
 </diff>  
