@@ -467,7 +467,7 @@
   <add sel="/god/products/product[@id='hol_smartchips']/location" type="@excludedtags">splitdlc</add>
   <add sel="/god/products/product[@id='hol_sojabeans']/location" type="@excludedtags">splitdlc</add>
   <add sel="/god/products/product[@id='hol_sojahusk']/location" type="@excludedtags">splitdlc</add>   
-  <add sel="/god/products/product[@id='hol_spice']/location" type="@excludedtags">splitdlc</add>  
+  <add sel="/god/products/product[@id='hol_spices']/location" type="@excludedtags">splitdlc</add>  
   <add sel="/god/products/product[@id='hol_superfluidcoolant']/location" type="@excludedtags">splitdlc</add>
   <add sel="/god/products/product[@id='hol_turretcomponents']/location" type="@excludedtags">splitdlc</add>
   <add sel="/god/products/product[@id='hol_water']/location" type="@excludedtags">splitdlc</add>
@@ -501,7 +501,7 @@
   <add sel="/god/products/product[@id='par_smartchips']/location" type="@excludedtags">splitdlc</add>
   <add sel="/god/products/product[@id='par_sojabeans']/location" type="@excludedtags">splitdlc</add>
   <add sel="/god/products/product[@id='par_sojahusk']/location" type="@excludedtags">splitdlc</add>   
-  <add sel="/god/products/product[@id='par_spice']/location" type="@excludedtags">splitdlc</add>  
+  <add sel="/god/products/product[@id='par_spices']/location" type="@excludedtags">splitdlc</add>  
   <add sel="/god/products/product[@id='par_superfluidcoolant']/location" type="@excludedtags">splitdlc</add>
   <add sel="/god/products/product[@id='par_turretcomponents']/location" type="@excludedtags">splitdlc</add>
   <add sel="/god/products/product[@id='par_water']/location" type="@excludedtags">splitdlc</add>
@@ -534,7 +534,7 @@
   <add sel="/god/products/product[@id='tel_siliconwafers']/location" type="@excludedtags">splitdlc</add>
   <add sel="/god/products/product[@id='tel_smartchips']/location" type="@excludedtags">splitdlc</add>
   <add sel="/god/products/product[@id='tel_spaceweed']/location" type="@excludedtags">splitdlc</add>  
-  <add sel="/god/products/product[@id='tel_spice']/location" type="@excludedtags">splitdlc</add>  
+  <add sel="/god/products/product[@id='tel_spices']/location" type="@excludedtags">splitdlc</add>  
   <add sel="/god/products/product[@id='tel_sunriseflowers']/location" type="@excludedtags">splitdlc</add>
   <add sel="/god/products/product[@id='tel_superfluidcoolant']/location" type="@excludedtags">splitdlc</add>  
   <add sel="/god/products/product[@id='tel_swampplant']/location" type="@excludedtags">splitdlc</add>    
@@ -570,7 +570,7 @@
   <add sel="/god/products/product[@id='spl_shieldcomponents']/location" type="@excludedtags">splitcolony</add>
   <add sel="/god/products/product[@id='spl_siliconwafers']/location" type="@excludedtags">splitcolony</add>
   <add sel="/god/products/product[@id='spl_smartchips']/location" type="@excludedtags">splitcolony</add>
-  <add sel="/god/products/product[@id='spl_spice']/location" type="@excludedtags">splitcolony</add>  
+  <add sel="/god/products/product[@id='spl_spices']/location" type="@excludedtags">splitcolony</add>  
   <add sel="/god/products/product[@id='spl_superfluidcoolant']/location" type="@excludedtags">splitcolony</add>
   <add sel="/god/products/product[@id='spl_turretcomponents']/location" type="@excludedtags">splitcolony</add>
   <add sel="/god/products/product[@id='spl_water']/location" type="@excludedtags">splitcolony</add>
