@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <replace sel="/diff/add[@sel='/jobs'][1]/job/ship/select/@tags">[military, destroyer]</replace>
+  <replace sel="/diff/add[@sel='/jobs'][6]/job/ship/select/@tags">[military, destroyer]</replace>
+  <replace sel="/diff/add[@sel='/jobs'][11]/job/ship/select/@tags">[military, destroyer]</replace>
+  <replace sel="/diff/add[@sel='/jobs'][308]/job/ship/select/@tags">[military, destroyer]</replace>
+  <replace sel="/diff/add[@sel='/jobs'][311]/job/ship/select/@tags">[military, destroyer]</replace>
+  <replace sel="/diff/add[@sel='/jobs'][315]/job/ship/select/@tags">[military, destroyer]</replace>
+  <replace sel="/diff/add[@sel='/jobs'][318]/job/ship/select/@tags">[military, destroyer]</replace>
+  <replace sel="/diff/add[@sel='/jobs'][322]/job/ship/select/@tags">[military, destroyer]</replace>
+  <replace sel="/diff/add[@sel='/jobs'][325]/job/ship/select/@tags">[military, destroyer]</replace>
+</diff>
