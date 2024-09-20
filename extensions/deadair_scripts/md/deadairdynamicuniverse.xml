@@ -126,7 +126,22 @@
 		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
 			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.weaponcomponents}.{2}" exact="0"/>
 		</do_if>
-	</add>	
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.da_adv_schematics}.{2}" exact="0"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.da_mil_schematics}.{2}" exact="0"/>
+		</do_if>
+	</add>
+	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
+		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.da_laborunion_contracts}.{2}" exact="14"/>
+		</do_if>
+	</add>		
 
 
 <!--TERRAN-->	

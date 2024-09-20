@@ -679,6 +679,16 @@
   </add>    
 	<!--New DA Modules-->
   <add sel="/god/products">
+	<!--Hatikvah-->
+    <product id="hat_da_laborunion_contracts" ware="da_laborunion_contracts" owner="hatikvah" type="factory">
+      <quotas>
+        <quota galaxy="14" />
+      </quotas>
+      <location class="galaxy" macro="xu_ep2_universe_macro" faction="hatikvah" relation="self" comparison="exact" matchextension="false"/>
+      <module>
+        <select ware="da_laborunion_contracts" race="argon" faction="argon"/>
+      </module>
+    </product>	  
 	<!--OTAS-->
     <product id="otas_da_adv_schematics" ware="da_adv_schematics" owner="otas" type="factory">
       <quotas>
