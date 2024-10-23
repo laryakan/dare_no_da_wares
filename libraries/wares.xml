@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
-  <replace sel="/wares/ware[@id='da_adv_schematics']/@group">deadair</replace>
-  <replace sel="/wares/ware[@id='da_mil_schematics']/@group">deadair</replace>
-  <replace sel="/wares/ware[@id='da_laborunion_contracts']/@group">deadair</replace>
-  
   <add sel="/wares/ware[@id='module_gen_prod_da_adv_schematics_01']">
 	<owner faction="otas"/>
   </add>

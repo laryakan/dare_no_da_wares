@@ -1,153 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
 <!--MODULE QUOTAS-->
-<!--HATIKVAH-->
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.advancedcomposites}.{2}" exact="0"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.advancedelectronics}.{2}" exact="0"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.antimattercells}.{2}" exact="12"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.antimatterconverters}.{2}" exact="0"/>
-		</do_if>
-	</add>		
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.claytronics}.{2}" exact="25"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.dronecomponents}.{2}" exact="0"/>
-		</do_if>
-	</add>			
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.energycells}.{2}" exact="25"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.engineparts}.{2}" exact="0"/>
-		</do_if>
-	</add>	
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.fieldcoils}.{2}" exact="0"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.foodrations}.{2}" exact="50"/>
-		</do_if>
-	</add>	
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.graphene}.{2}" exact="12"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.hullparts}.{2}" exact="25"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.medicalsupplies}.{2}" exact="50"/>
-		</do_if>
-	</add>	
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.microchips}.{2}" exact="0"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.missilecomponents}.{2}" exact="0"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.plasmaconductors}.{2}" exact="0"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.quantumtubes}.{2}" exact="0"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.refinedmetals}.{2}" exact="16"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.spacefuel}.{2}" exact="12"/>
-		</do_if>
-	</add>	
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.scanningarrays}.{2}" exact="0"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.shieldcomponents}.{2}" exact="0"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.siliconwafers}.{2}" exact="14"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.smartchips}.{2}" exact="0"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.turretcomponents}.{2}" exact="0"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.weaponcomponents}.{2}" exact="0"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.da_adv_schematics}.{2}" exact="0"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.da_mil_schematics}.{2}" exact="0"/>
-		</do_if>
-	</add>
-	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
-		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.hatikvah}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.hatikvah}.{ware.da_laborunion_contracts}.{2}" exact="14"/>
-		</do_if>
-	</add>		
-
-
 <!--TERRAN-->	
 	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
 		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.terran}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.terran}.{ware.energycells}.{2}" exact="240"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.terran}.{ware.energycells}.{2}" exact="78"/>
 		</do_if>
 	</add>
 	
@@ -155,7 +12,7 @@
 <!--PIONEERS-->	
 	<add sel="//library[@name='LibraryGodFactionOverrides']/actions/do_if[@value='true'][@comment='EasyDiffAddMarker']" pos="after">
 		<do_if value="not $DADVT.$DAGodFactionsTriggered.indexof.{faction.pioneers}">
-			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.pioneers}.{ware.energycells}.{2}" exact="240"/>
+			<set_value name="$DADVT.$DAGodFactionModuleQuotas.{faction.pioneers}.{ware.energycells}.{2}" exact="108"/>
 		</do_if>
 	</add>		
 

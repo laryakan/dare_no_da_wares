@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <replace sel="/regions/region[@name='region_cluster_36_sector_001']/fields/nebula[@ref='fogpattern_v2_macro']/@resources">methane</replace>
+  <remove sel="/regions/region[@name='region_cluster_36_sector_001']/resources/resource[@ware='helium']"/>
+  <remove sel="/regions/region[@name='region_cluster_36_sector_001']/resources/resource[@ware='hydrogen']"/>
+</diff>
