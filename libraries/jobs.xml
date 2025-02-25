@@ -22,9 +22,10 @@
   <replace sel="/jobs/job[@id='xenon_DACoreTagxenon_xl_job_DALargeFleet']/ship/select/@tags">[destroyer]</replace>  
   <replace sel="/jobs/job[@id='xenon_DABorderTagxenon_xl_job_DALargeFleet']/ship/select/@tags">[destroyer]</replace>  
   <replace sel="/jobs/job[@id='xenon_DAContestedTagxenon_xl_job_DALargeFleet']/ship/select/@tags">[destroyer]</replace>    
-  <replace sel="/jobs/job[@id='xenon_escort_xl_DALargeFleet']/ship/select/@tags">[destroyer]</replace> 
+  <replace sel="/jobs/job[@id='xenon_escort_xl_DALargeFleet']/ship/select/@tags">[destroyer]</replace>  
 
 <!--Split DLC Jobs-->
+<!--
   <replace sel="/jobs/job[@id='argon_destroyer_patrol_l_sector_spl'][@name='{20204,3301}']/quota[@galaxy='0'][@sector='1']/@galaxy">2</replace>
   <replace sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_spl'][@name='{20204,2901}']/quota[@galaxy='0'][@maxgalaxy='0'][@sector='2']/@galaxy">9</replace>
   <replace sel="/jobs/job[@id='argon_frigate_patrol_m_sector_exp_spl'][@name='{20204,2901}']/quota[@galaxy='9'][@maxgalaxy='0'][@sector='2']/@maxgalaxy">23</replace>
@@ -52,7 +53,7 @@
   <replace sel="/jobs/job[@id='trinity_fighter_patrol_s_zone_spl'][@name='{20204,2901}']/quota[@galaxy='18'][@maxgalaxy='0'][@zone='1']/@maxgalaxy">29</replace>
   <replace sel="/jobs/job[@id='ministry_destroyer_patrol_l_spl'][@name='{20204,3301}']/quota[@galaxy='0']/@galaxy">1</replace>
   <replace sel="/jobs/job[@id='teladi_fighter_patrol_s_zone_exp_spl'][@name='{20204,2901}']/quota[@galaxy='0'][@zone='1']/@galaxy">12</replace>
-  
+-->  
   
 		<!--Construction Ship Quotas-->
 <!--Argon-->
