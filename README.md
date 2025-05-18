@@ -1,4 +1,4 @@
-# DeadAir X4-Reemergence (No DA Wares)
+# DeadAir X4-Reemergence Patch (No DA Wares)
 
 ## What's different comparing to the original DeadAir-RE Patch ?
 **v1.40** There is no more DA Wares in this fork, this means : 
