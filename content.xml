@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="deadair_re" name="DeadAir Reemergence" description="DA-RE Compatibility Patch but with no DA Wares" author="X4:RE Team, ft. Laryakan" version="140" date="2025-05-18" save="0" enabled="1">
+<content id="deadair_re" name="DA-RE (No DA Wares)" description="DA-RE Compatibility Patch but with no DA Wares" author="X4:RE Team, ft. Laryakan" version="140" date="2025-05-18" save="0" enabled="1">
 	<dependency id="ego_dlc_split" optional="false" name="Split Vendetta"/>
 	<dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity"/>
 	<dependency id="ego_dlc_boron" optional="false" name="Kingdom End"/>
